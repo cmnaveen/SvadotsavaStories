@@ -1,0 +1,938 @@
+[
+    {
+        "tts_text": "ఇది 'అ' అక్షరం. 'అ' అని పలకండి. 'అ' అంటే 'అరటి'. తీపి తీపి అరటి పండు. అరటి పండు తిందాము, బలాన్ని మనము పొందుదాము! మరోసారి చెబుదాం: 'అ' అంటే 'అరటి'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, holding a yellow banana (arati) on a clean white background. Thick rounded outlines, playful tone.",
+        "letter": "అ",
+        "example_word_transliteration": "Arati",
+        "example_word": "అరటి",
+        "is_conjunct": false,
+        "stroke_description": "Start with a small loop on the left, curve up and right to form a big loop, then draw a horizontal line with a vertical tick on top.",
+        "sound": "a as in apple",
+        "example_word_meaning": "Banana",
+        "video_script": [
+            "ఇది 'అ' అక్షరం. 'అ' అని పలకండి.",
+            "'అ' అంటే 'అరటి'. తీపి తీపి అరటి పండు.",
+            "అరటి పండు తిందాము, బలాన్ని మనము పొందుదాము!",
+            "మరోసారి చెబుదాం: 'అ' అంటే 'అరటి'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'ఆ' అక్షరం. 'ఆ' అని పలకండి. 'ఆ' అంటే 'ఆకు'. పచ్చని తోటలో ఆకు. ఆకు పచ్చని ఆకు చూడు, తోటలోన అందం చూడు! మరోసారి చెబుదాం: 'ఆ' అంటే 'ఆకు'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, holding a large green leaf (aaku) over its head. Thick rounded outlines, playful tone.",
+        "letter": "ఆ",
+        "example_word_transliteration": "Aaku",
+        "example_word": "ఆకు",
+        "is_conjunct": false,
+        "stroke_description": "Draw the letter 'అ' first, then extend the top right vertical tick into a long downward curving hook on the right side.",
+        "sound": "aa as in father",
+        "example_word_meaning": "Leaf",
+        "video_script": [
+            "ఇది 'ఆ' అక్షరం. 'ఆ' అని పలకండి.",
+            "'ఆ' అంటే 'ఆకు'. పచ్చని తోటలో ఆకు.",
+            "ఆకు పచ్చని ఆకు చూడు, తోటలోన అందం చూడు!",
+            "మరోసారి చెబుదాం: 'ఆ' అంటే 'ఆకు'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'ఇ' అక్షరం. 'ఇ' అని పలకండి. 'ఇ' అంటే 'ఇల్లు'. మన ముద్దుల ఇల్లు. ఇల్లు మనకు ఇముడునురా, ఇష్టమైన చదువుల కోవెలరా! మరోసారి చెబుదాం: 'ఇ' అంటే 'ఇల్లు'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, standing proudly in front of a small, cute pastel house (illu). Thick rounded outlines, playful tone.",
+        "letter": "ఇ",
+        "example_word_transliteration": "Illu",
+        "example_word": "ఇల్లు",
+        "is_conjunct": false,
+        "stroke_description": "Start with a small loop, curve upwards and right to form a crescent, then make two wave-like loops at the bottom.",
+        "sound": "i as in pit",
+        "example_word_meaning": "House",
+        "video_script": [
+            "ఇది 'ఇ' అక్షరం. 'ఇ' అని పలకండి.",
+            "'ఇ' అంటే 'ఇల్లు'. మన ముద్దుల ఇల్లు.",
+            "ఇల్లు మనకు ఇముడునురా, ఇష్టమైన చదువుల కోవెలరా!",
+            "మరోసారి చెబుదాం: 'ఇ' అంటే 'ఇల్లు'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'ఈ' అక్షరం. 'ఈ' అని పలకండి. 'ఈ' అంటే 'ఈక'. రంగు రంగుల నెమలి ఈక. ఈక నెమలి ఈక చూడు, రంగు రంగుల ఈక చూడు! మరోసారి చెబుదాం: 'ఈ' అంటే 'ఈక'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, holding and admiring a beautiful peacock feather (eeka). Thick rounded outlines, playful tone.",
+        "letter": "ఈ",
+        "example_word_transliteration": "Eeka",
+        "example_word": "ఈక",
+        "is_conjunct": false,
+        "stroke_description": "Draw a circle, place a horizontal tick on top, and add a small circle inside with a curved tail on the right.",
+        "sound": "ee as in feel",
+        "example_word_meaning": "Feather",
+        "video_script": [
+            "ఇది 'ఈ' అక్షరం. 'ఈ' అని పలకండి.",
+            "'ఈ' అంటే 'ఈక'. రంగు రంగుల నెమలి ఈక.",
+            "ఈక నెమలి ఈక చూడు, రంగు రంగుల ఈక చూడు!",
+            "మరోసారి చెబుదాం: 'ఈ' అంటే 'ఈక'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'ఉ' అక్షరం. 'ఉ' అని పలకండి. 'ఉ' అంటే 'ఉడుత'. తోక ఊపే ఉడుత. ఉడుత ఉడుత ఊరికెళ్ళి, జామపండు తెచ్చింది! మరోసారి చెబుదాం: 'ఉ' అంటే 'ఉడుత'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, feeding a nut to a cute little striped squirrel (uduta). Thick rounded outlines, playful tone.",
+        "letter": "ఉ",
+        "example_word_transliteration": "Uduta",
+        "example_word": "ఉడుత",
+        "is_conjunct": false,
+        "stroke_description": "Start with a loop on the left, draw a wave curve up and then a horizontal line at the top right with a vertical hook.",
+        "sound": "u as in put",
+        "example_word_meaning": "Squirrel",
+        "video_script": [
+            "ఇది 'ఉ' అక్షరం. 'ఉ' అని పలకండి.",
+            "'ఉ' అంటే 'ఉడుత'. తోక ఊపే ఉడుత.",
+            "ఉడుత ఉడుత ఊరికెళ్ళి, జామపండు తెచ్చింది!",
+            "మరోసారి చెబుదాం: 'ఉ' అంటే 'ఉడుత'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'ఊ' అక్షరం. 'ఊ' అని పలకండి. 'ఊ' అంటే 'ఊయల'. తోటలోని అందమైన ఊయల. ఊయల ఊగుదామురా, ఉల్లాసంగా పాడుదామురా! మరోసారి చెబుదాం: 'ఊ' అంటే 'ఊయల'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, swinging happily on a wooden swing (ooyala) hanging from a tree branch. Thick rounded outlines, playful tone.",
+        "letter": "ఊ",
+        "example_word_transliteration": "Ooyala",
+        "example_word": "ఊయల",
+        "is_conjunct": false,
+        "stroke_description": "Draw the letter 'ఉ' first, then add a long curved downward tail to the right loop.",
+        "sound": "oo as in boot",
+        "example_word_meaning": "Swing",
+        "video_script": [
+            "ఇది 'ఊ' అక్షరం. 'ఊ' అని పలకండి.",
+            "'ఊ' అంటే 'ఊయల'. తోటలోని అందమైన ఊయల.",
+            "ఊయల ఊగుదామురా, ఉల్లాసంగా పాడుదామురా!",
+            "మరోసారి చెబుదాం: 'ఊ' అంటే 'ఊయల'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'ఋ' అక్షరం. 'ఋ' అని పలకండి. 'ఋ' అంటే 'ఋషి'. అడవిలో తపస్సు చేసే ఋషి. ఋషి ముని ధ్యానం చేయునురా, అందరికీ మంచిని కోరునురా! మరోసారి చెబుదాం: 'ఋ' అంటే 'ఋషి'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, sitting cross-legged next to a wise old sage (rishi) who is meditating under a tree. Thick rounded outlines, playful tone.",
+        "letter": "ఋ",
+        "example_word_transliteration": "Rishi",
+        "example_word": "ఋషి",
+        "is_conjunct": false,
+        "stroke_description": "Start with a curve, make a loop at the bottom, then make three small loops going right along the bottom edge.",
+        "sound": "ru as in rural",
+        "example_word_meaning": "Sage",
+        "video_script": [
+            "ఇది 'ఋ' అక్షరం. 'ఋ' అని పలకండి.",
+            "'ఋ' అంటే 'ఋషి'. అడవిలో తపస్సు చేసే ఋషి.",
+            "ఋషి ముని ధ్యానం చేయునురా, అందరికీ మంచిని కోరునురా!",
+            "మరోసారి చెబుదాం: 'ఋ' అంటే 'ఋషి'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'ౠ' అక్షరం. 'ౠ' అని పలకండి. 'ౠ' అంటే 'ౠకలు'. మన కాలపు నాణేలు. ౠకలు మనకు నాణేలురా, పూర్వపు కాలపు ధనమురా! మరోసారి చెబుదాం: 'ౠ' అంటే 'ౠకలు'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, looking at a small stack of golden coins (rookalu). Thick rounded outlines, playful tone.",
+        "letter": "ౠ",
+        "example_word_transliteration": "Rūkalu",
+        "example_word": "ౠకలు",
+        "is_conjunct": false,
+        "stroke_description": "Draw the letter 'ఋ' first, then add a downward curved long tail to the last bottom loop on the right.",
+        "sound": "ruu as in room",
+        "example_word_meaning": "Coins/Money",
+        "video_script": [
+            "ఇది 'ౠ' అక్షరం. 'ౠ' అని పలకండి.",
+            "'ౠ' అంటే 'ౠకలు'. మన కాలపు నాణేలు.",
+            "ౠకలు మనకు నాణేలురా, పూర్వపు కాలపు ధనమురా!",
+            "మరోసారి చెబుదాం: 'ౠ' అంటే 'ౠకలు'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'ఎ' అక్షరం. 'ఎ' అని పలకండి. 'ఎ' అంటే 'ఎలుక'. చిన్న బుజ్జి ఎలుక. ఎలుక వచ్చిందిరా, చీరను కొరికిందిరా! మరోసారి చెబుదాం: 'ఎ' అంటే 'ఎలుక'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, offering a piece of cheese to a tiny friendly white mouse (eluka). Thick rounded outlines, playful tone.",
+        "letter": "ఎ",
+        "example_word_transliteration": "Eluka",
+        "example_word": "ఎలుక",
+        "is_conjunct": false,
+        "stroke_description": "Draw a small loop at the bottom, curve up to make a wave, and draw another loop to the right.",
+        "sound": "e as in hen",
+        "example_word_meaning": "Mouse",
+        "video_script": [
+            "ఇది 'ఎ' అక్షరం. 'ఎ' అని పలకండి.",
+            "'ఎ' అంటే 'ఎలుక'. చిన్న బుజ్జి ఎలుక.",
+            "ఎలుక వచ్చిందిరా, చీరను కొరికిందిరా!",
+            "మరోసారి చెబుదాం: 'ఎ' అంటే 'ఎలుక'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'ఏ' అక్షరం. 'ఏ' అని పలకండి. 'ఏ' అంటే 'ఏనుగు'. పెద్ద కొమ్ముల ఏనుగు. ఏనుగు ఏనుగు నల్లన, ఏనుగు కొమ్ములు తెల్లన! మరోసారి చెబుదాం: 'ఏ' అంటే 'ఏనుగు'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, standing next to a friendly baby elephant (eenugu) spraying water. Thick rounded outlines, playful tone.",
+        "letter": "ఏ",
+        "example_word_transliteration": "Eenugu",
+        "example_word": "ఏనుగు",
+        "is_conjunct": false,
+        "stroke_description": "Draw 'ఎ' first, then add an upward hook/tick at the starting loop.",
+        "sound": "ea as in play",
+        "example_word_meaning": "Elephant",
+        "video_script": [
+            "ఇది 'ఏ' అక్షరం. 'ఏ' అని పలకండి.",
+            "'ఏ' అంటే 'ఏనుగు'. పెద్ద కొమ్ముల ఏనుగు.",
+            "ఏనుగు ఏనుగు నల్లన, ఏనుగు కొమ్ములు తెల్లన!",
+            "మరోసారి చెబుదాం: 'ఏ' అంటే 'ఏనుగు'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'ఐ' అక్షరం. 'ఐ' అని పలకండి. 'ఐ' అంటే 'ఐస్ క్రీమ్'. చల్లని తీపి ఐస్ క్రీమ్. ఐస్ క్రీమ్ తిందాము, చల్లగా నవ్వుదాము! మరోసారి చెబుదాం: 'ఐ' అంటే 'ఐస్ క్రీమ్'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, holding a double-scoop colorful ice cream cone. Thick rounded outlines, playful tone.",
+        "letter": "ఐ",
+        "example_word_transliteration": "Ice Cream",
+        "example_word": "ఐస్ క్రీమ్",
+        "is_conjunct": false,
+        "stroke_description": "Draw the letter 'ఎ', and attach a downward double wave hook at the bottom.",
+        "sound": "ai as in ice",
+        "example_word_meaning": "Ice Cream",
+        "video_script": [
+            "ఇది 'ఐ' అక్షరం. 'ఐ' అని పలకండి.",
+            "'ఐ' అంటే 'ఐస్ క్రీమ్'. చల్లని తీపి ఐస్ క్రీమ్.",
+            "ఐస్ క్రీమ్ తిందాము, చల్లగా నవ్వుదాము!",
+            "మరోసారి చెబుదాం: 'ఐ' అంటే 'ఐస్ క్రీమ్'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'ఒ' అక్షరం. 'ఒ' అని పలకండి. 'ఒ' అంటే 'ఒంటె'. ఎడారిలో నడిచే ఒంటె. ఒంటె ఎడారి ఓడరా, మెల్లగా నడిచి పోవురా! మరోసారి చెబుదాం: 'ఒ' అంటే 'ఒంటె'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, sitting on the hump of a friendly smiling camel (onte). Thick rounded outlines, playful tone.",
+        "letter": "ఒ",
+        "example_word_transliteration": "Onte",
+        "example_word": "ఒంటె",
+        "is_conjunct": false,
+        "stroke_description": "Draw a loop on the left, curve up, down, up again, and end with a downward tail on the right.",
+        "sound": "o as in boat (short)",
+        "example_word_meaning": "Camel",
+        "video_script": [
+            "ఇది 'ఒ' అక్షరం. 'ఒ' అని పలకండి.",
+            "'ఒ' అంటే 'ఒంటె'. ఎడారిలో నడిచే ఒంటె.",
+            "ఒంటె ఎడారి ఓడరా, మెల్లగా నడిచి పోవురా!",
+            "మరోసారి చెబుదాం: 'ఒ' అంటే 'ఒంటె'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'ఓ' అక్షరం. 'ఓ' అని పలకండి. 'ఓ' అంటే 'ఓడ'. సముద్రంలో ప్రయాణించే ఓడ. ఓడ నీటిలో తేలునురా, లోకమంతా తిప్పునురా! మరోసారి చెబుదాం: 'ఓ' అంటే 'ఓడ'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, standing on the deck of a large wooden sailboat (oda) on a calm sea. Thick rounded outlines, playful tone.",
+        "letter": "ఓ",
+        "example_word_transliteration": "Oda",
+        "example_word": "ఓడ",
+        "is_conjunct": false,
+        "stroke_description": "Draw 'ఒ' first, then extend the top right loop upwards and to the right.",
+        "sound": "o as in boat (long)",
+        "example_word_meaning": "Ship",
+        "video_script": [
+            "ఇది 'ఓ' అక్షరం. 'ఓ' అని పలకండి.",
+            "'ఓ' అంటే 'ఓడ'. సముద్రంలో ప్రయాణించే ఓడ.",
+            "ఓడ నీటిలో తేలునురా, లోకమంతా తిప్పునురా!",
+            "మరోసారి చెబుదాం: 'ఓ' అంటే 'ఓడ'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'ఔ' అక్షరం. 'ఔ' అని పలకండి. 'ఔ' అంటే 'ఔషధం'. మనకు ఆరోగ్యం ఇచ్చే ఔషధం. ఔషధం మనకు మేలు చేయు, రోగాలన్నిటిని నయం చేయు! మరోసారి చెబుదాం: 'ఔ' అంటే 'ఔషధం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, holding a friendly, smiling bottle of sweet herbal syrup medicine (oushadham). Thick rounded outlines, playful tone.",
+        "letter": "ఔ",
+        "example_word_transliteration": "Oushadham",
+        "example_word": "ఔషధం",
+        "is_conjunct": false,
+        "stroke_description": "Draw 'ఒ' first, then attach a double wave tail ('ow' symbol) at the top right.",
+        "sound": "ow as in cow",
+        "example_word_meaning": "Medicine",
+        "video_script": [
+            "ఇది 'ఔ' అక్షరం. 'ఔ' అని పలకండి.",
+            "'ఔ' అంటే 'ఔషధం'. మనకు ఆరోగ్యం ఇచ్చే ఔషధం.",
+            "ఔషధం మనకు మేలు చేయు, రోగాలన్నిటిని నయం చేయు!",
+            "మరోసారి చెబుదాం: 'ఔ' అంటే 'ఔషధం'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'అం' అక్షరం. 'అం' అని పలకండి. 'అం' అంటే 'అంకెలు'. ఒకటి రెండు మూడు అంకెలు. అంకెలు మనము నేర్చుకుందాం, లెక్కల ఆటలు ఆడుకుందాం! మరోసారి చెబుదాం: 'అం' అంటే 'అంకెలు'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, stacking colorful blocks with numbers 1, 2, 3 written on them. Thick rounded outlines, playful tone.",
+        "letter": "అం",
+        "example_word_transliteration": "Ankelu",
+        "example_word": "అంకెలు",
+        "is_conjunct": false,
+        "stroke_description": "Draw the letter 'అ' followed by a medium-sized circle (anusvara) on the right side.",
+        "sound": "am as in umbrella",
+        "example_word_meaning": "Numbers",
+        "video_script": [
+            "ఇది 'అం' అక్షరం. 'అం' అని పలకండి.",
+            "'అం' అంటే 'అంకెలు'. ఒకటి రెండు మూడు అంకెలు.",
+            "అంకెలు మనము నేర్చుకుందాం, లెక్కల ఆటలు ఆడుకుందాం!",
+            "మరోసారి చెబుదాం: 'అం' అంటే 'అంకెలు'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'అః' అక్షరం. 'అః' అని పలకండి. 'అః' అంటే 'అంతఃపురం'. అందమైన రాజుగారి కోట. అంతఃపురం అందాలు చూడు, రాజుగారి కోటను చూడు! మరోసారి చెబుదాం: 'అః' అంటే 'అంతఃపురం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, standing in front of a majestic, colorful royal palace (anthahpuram) with flags. Thick rounded outlines, playful tone.",
+        "letter": "అః",
+        "example_word_transliteration": "Anthahpuram",
+        "example_word": "అంతఃపురం",
+        "is_conjunct": false,
+        "stroke_description": "Draw the letter 'అ' followed by two small circles arranged vertically (visarga) on the right.",
+        "sound": "aha as in haha",
+        "example_word_meaning": "Palace",
+        "video_script": [
+            "ఇది 'అః' అక్షరం. 'అః' అని పలకండి.",
+            "'అః' అంటే 'అంతఃపురం'. అందమైన రాజుగారి కోట.",
+            "అంతఃపురం అందాలు చూడు, రాజుగారి కోటను చూడు!",
+            "మరోసారి చెబుదాం: 'అః' అంటే 'అంతఃపురం'!"
+        ],
+        "type": "vowel"
+    },
+    {
+        "tts_text": "ఇది 'క' అక్షరం. 'క' అని పలకండి. 'క' అంటే 'కప్ప'. బురదలో దూకే కప్ప. కప్ప కప్ప ఊపిరి పీల్చు, చెరువులోన గెంతుతూ ఆడు! మరోసారి చెబుదాం: 'క' అంటే 'కప్ప'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, splashing in a small puddle next to a happy, smiling green frog (kappa). Thick rounded outlines, playful tone.",
+        "letter": "క",
+        "example_word_transliteration": "Kappa",
+        "example_word": "కప్ప",
+        "is_conjunct": false,
+        "stroke_description": "Draw a large S-shape curve, then add a horizontal line across its center with a vertical tick on top.",
+        "sound": "k as in kite",
+        "example_word_meaning": "Frog",
+        "video_script": [
+            "ఇది 'క' అక్షరం. 'క' అని పలకండి.",
+            "'క' అంటే 'కప్ప'. బురదలో దూకే కప్ప.",
+            "కప్ప కప్ప ఊపిరి పీల్చు, చెరువులోన గెంతుతూ ఆడు!",
+            "మరోసారి చెబుదాం: 'క' అంటే 'కప్ప'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ఖ' అక్షరం. 'ఖ' అని పలకండి. 'ఖ' అంటే 'ఖర్జూరం'. తీపి తీపి ఖర్జూరం. ఖర్జూరం తింటే బలంరా, పిల్లలకది ఎంతో ఇష్టంరా! మరోసారి చెబుదాం: 'ఖ' అంటే 'ఖర్జూరం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, holding a wooden basket filled with brown, sweet dates (kharjooram). Thick rounded outlines, playful tone.",
+        "letter": "ఖ",
+        "example_word_transliteration": "Kharjooram",
+        "example_word": "ఖర్జూరం",
+        "is_conjunct": false,
+        "stroke_description": "Start with a loop at the bottom, curve up and down, then add a vertical tick on top and a small vertical dash underneath the base.",
+        "sound": "kh as in block-head (aspirated)",
+        "example_word_meaning": "Dates",
+        "video_script": [
+            "ఇది 'ఖ' అక్షరం. 'ఖ' అని పలకండి.",
+            "'ఖ' అంటే 'ఖర్జూరం'. తీపి తీపి ఖర్జూరం.",
+            "ఖర్జూరం తింటే బలంరా, పిల్లలకది ఎంతో ఇష్టంరా!",
+            "మరోసారి చెబుదాం: 'ఖ' అంటే 'ఖర్జూరం'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'గ' అక్షరం. 'గ' అని పలకండి. 'గ' అంటే 'గొడుగు'. వర్షంలో కాపాడే గొడుగు. గొడుగు పట్టుకు వెళదామా, వానలోన తడవకుండా ఉందామా! మరోసారి చెబుదాం: 'గ' అంటే 'గొడుగు'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, holding a small rainbow-colored umbrella (godugu). Thick rounded outlines, playful tone.",
+        "letter": "గ",
+        "example_word_transliteration": "Godugu",
+        "example_word": "గొడుగు",
+        "is_conjunct": false,
+        "stroke_description": "Draw an upside-down U curve, and place a tick on the top center.",
+        "sound": "g as in go",
+        "example_word_meaning": "Umbrella",
+        "video_script": [
+            "ఇది 'గ' అక్షరం. 'గ' అని పలకండి.",
+            "'గ' అంటే 'గొడుగు'. వర్షంలో కాపాడే గొడుగు.",
+            "గొడుగు పట్టుకు వెళదామా, వానలోన తడవకుండా ఉందామా!",
+            "మరోసారి చెబుదాం: 'గ' అంటే 'గొడుగు'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ఘ' అక్షరం. 'ఘ' అని పలకండి. 'ఘ' అంటే 'ఘంట'. గుడిలోని పెద్ద గంట. ఘంట మోగెను ఘణ ఘణ, గుడికి వెళదాం నడవండి! మరోసారి చెబుదాం: 'ఘ' అంటే 'ఘంట'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, ringing a shiny golden bell (ghanta). Thick rounded outlines, playful tone.",
+        "letter": "ఘ",
+        "example_word_transliteration": "Ghanta",
+        "example_word": "ఘంట",
+        "is_conjunct": false,
+        "stroke_description": "Draw three successive upward loops, a vertical line with a tick on top, and add a vertical line underneath.",
+        "sound": "gh as in dog-house (aspirated)",
+        "example_word_meaning": "Bell",
+        "video_script": [
+            "ఇది 'ఘ' అక్షరం. 'ఘ' అని పలకండి.",
+            "'ఘ' అంటే 'ఘంట'. గుడిలోని పెద్ద గంట.",
+            "ఘంట మోగెను ఘణ ఘణ, గుడికి వెళదాం నడవండి!",
+            "మరోసారి చెబుదాం: 'ఘ' అంటే 'ఘంట'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ఙ' అక్షరం. 'ఙ' అని పలకండి. 'ఙ' అక్షరంతో 'జ్ఞానం'. పుస్తకాలు ఇచ్చే గొప్ప జ్ఞానం. జ్ఞానం నేర్చుకుంటే మనము, లోకంలో గొప్పగా ఎదుగుతాము! మరోసారి చెబుదాం: 'ఙ' అంటే 'జ్ఞానం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, wearing tiny reading glasses and reading a big colorful book under a tree. Thick rounded outlines, playful tone.",
+        "letter": "ఙ",
+        "example_word_transliteration": "Jnanam",
+        "example_word": "జ్ఞానం",
+        "is_conjunct": false,
+        "stroke_description": "Draw a shape resembling an 'o' with a top horizontal line, then add a side loop on the right.",
+        "sound": "ng as in song",
+        "example_word_meaning": "Wisdom",
+        "video_script": [
+            "ఇది 'ఙ' అక్షరం. 'ఙ' అని పలకండి.",
+            "'ఙ' అక్షరంతో 'జ్ఞానం'. పుస్తకాలు ఇచ్చే గొప్ప జ్ఞానం.",
+            "జ్ఞానం నేర్చుకుంటే మనము, లోకంలో గొప్పగా ఎదుగుతాము!",
+            "మరోసారి చెబుదాం: 'ఙ' అంటే 'జ్ఞానం'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'చ' అక్షరం. 'చ' అని పలకండి. 'చ' అంటే 'చందమామ'. చల్లని వెన్నెల చందమామ. చందమామ రావే, జాబిల్లి రావే, కొండెక్కి రావే! మరోసారి చెబుదాం: 'చ' అంటే 'చందమామ'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, waving at a smiling yellow crescent moon (chandamama) in a starry sky. Thick rounded outlines, playful tone.",
+        "letter": "చ",
+        "example_word_transliteration": "Chandamama",
+        "example_word": "చందమామ",
+        "is_conjunct": false,
+        "stroke_description": "Start with a horizontal wave, draw a vertical loop, then end with a horizontal line and a vertical tick on top.",
+        "sound": "ch as in chair",
+        "example_word_meaning": "Moon",
+        "video_script": [
+            "ఇది 'చ' అక్షరం. 'చ' అని పలకండి.",
+            "'చ' అంటే 'చందమామ'. చల్లని వెన్నెల చందమామ.",
+            "చందమామ రావే, జాబిల్లి రావే, కొండెక్కి రావే!",
+            "మరోసారి చెబుదాం: 'చ' అంటే 'చందమామ'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ఛ' అక్షరం. 'ఛ' అని పలకండి. 'ఛ' అంటే 'ఛత్రం'. రాజుగారి పెద్ద ఛత్రం. ఛత్రం మనకు నీడ నిచ్చు, ఎండ వానల నుండి కాపాడు! మరోసారి చెబుదాం: 'ఛ' అంటే 'ఛత్రం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, standing under a fancy decorated royal umbrella (chhatram). Thick rounded outlines, playful tone.",
+        "letter": "ఛ",
+        "example_word_transliteration": "Chhatram",
+        "example_word": "ఛత్రం",
+        "is_conjunct": false,
+        "stroke_description": "Draw the letter 'చ' structure with a bottom loop, add a tick on top and a vertical dash underneath.",
+        "sound": "chh as in match-box (aspirated)",
+        "example_word_meaning": "Royal Umbrella",
+        "video_script": [
+            "ఇది 'ఛ' అక్షరం. 'ఛ' అని పలకండి.",
+            "'ఛ' అంటే 'ఛత్రం'. రాజుగారి పెద్ద ఛత్రం.",
+            "ఛత్రం మనకు నీడ నిచ్చు, ఎండ వానల నుండి కాపాడు!",
+            "మరోసారి చెబుదాం: 'ఛ' అంటే 'ఛత్రం'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'జ' అక్షరం. 'జ' అని పలకండి. 'జ' అంటే 'జెండా'. మూడు రంగుల జెండా. జెండా ఎగురవేద్దాం, దేశ భక్తిని మనము చూపుదాం! మరోసారి చెబుదాం: 'జ' అంటే 'జెండా'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, proudly waving a colorful striped flag (jenda). Thick rounded outlines, playful tone.",
+        "letter": "జ",
+        "example_word_transliteration": "Jenda",
+        "example_word": "జెండా",
+        "is_conjunct": false,
+        "stroke_description": "Draw a loop on the left, loop down and up to the right, then draw a horizontal line with a vertical tick on top.",
+        "sound": "j as in joy",
+        "example_word_meaning": "Flag",
+        "video_script": [
+            "ఇది 'జ' అక్షరం. 'జ' అని పలకండి.",
+            "'జ' అంటే 'జెండా'. మూడు రంగుల జెండా.",
+            "జెండా ఎగురవేద్దాం, దేశ భక్తిని మనము చూపుదాం!",
+            "మరోసారి చెబుదాం: 'జ' అంటే 'జెండా'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ఝ' అక్షరం. 'ఝ' అని పలకండి. 'ఝ' అంటే 'ఝరి'. కొండల నుండి పారే సెలయేరు. ఝరి జలజల పారునురా, చూడ ముచ్చటగా ఉండునురా! మరోసారి చెబుదాం: 'ఝ' అంటే 'ఝరి'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, dipping its feet in a sparkling mountain waterfall (jhari). Thick rounded outlines, playful tone.",
+        "letter": "ఝ",
+        "example_word_transliteration": "Jhari",
+        "example_word": "ఝరి",
+        "is_conjunct": false,
+        "stroke_description": "Draw two loops, add a long hook on the right, a tick on top, and a vertical dash at the bottom.",
+        "sound": "jh as in hedge-hog (aspirated)",
+        "example_word_meaning": "Waterfall",
+        "video_script": [
+            "ఇది 'ఝ' అక్షరం. 'ఝ' అని పలకండి.",
+            "'ఝ' అంటే 'ఝరి'. కొండల నుండి పారే సెలయేరు.",
+            "ఝరి జలజల పారునురా, చూడ ముచ్చటగా ఉండునురా!",
+            "మరోసారి చెబుదాం: 'ఝ' అంటే 'ఝరి'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ఞ' అక్షరం. 'ఞ' అని పలకండి. 'ఞ' అక్షరంతో 'జ్ఞాని'. జ్ఞానమున్న గొప్ప మేధావి. జ్ఞాని చెప్పిన మాటలు వింటే, జీవితమంతా సుఖంగా ఉండును! మరోసారి చెబుదాం: 'ఞ' అంటే 'జ్ఞాని'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, wearing a purple graduation cap and holding a scroll. Thick rounded outlines, playful tone.",
+        "letter": "ఞ",
+        "example_word_transliteration": "Jnani",
+        "example_word": "జ్ఞాని",
+        "is_conjunct": false,
+        "stroke_description": "Draw a circle, place a horizontal tick on top, and add a long wave curve extending from the right side.",
+        "sound": "nya as in canyon",
+        "example_word_meaning": "Scholar",
+        "video_script": [
+            "ఇది 'ఞ' అక్షరం. 'ఞ' అని పలకండి.",
+            "'ఞ' అక్షరంతో 'జ్ఞాని'. జ్ఞానమున్న గొప్ప మేధావి.",
+            "జ్ఞాని చెప్పిన మాటలు వింటే, జీవితమంతా సుఖంగా ఉండును!",
+            "మరోసారి చెబుదాం: 'ఞ' అంటే 'జ్ఞాని'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ట' అక్షరం. 'ట' అని పలకండి. 'ట' అంటే 'టోపీ'. తలపైన పెట్టుకునే టోపీ. టోపీ పెడితే అందంరా, ఎండ తగలకుండా కాపాడునురా! మరోసారి చెబుదాం: 'ట' అంటే 'టోపీ'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, wearing a colorful, funny pointed birthday cap (topi). Thick rounded outlines, playful tone.",
+        "letter": "ట",
+        "example_word_transliteration": "Topi",
+        "example_word": "టోపీ",
+        "is_conjunct": false,
+        "stroke_description": "Draw a loop on the left, wave up and right, and draw a tick at the top right.",
+        "sound": "t as in tub (retroflex)",
+        "example_word_meaning": "Cap",
+        "video_script": [
+            "ఇది 'ట' అక్షరం. 'ట' అని పలకండి.",
+            "'ట' అంటే 'టోపీ'. తలపైన పెట్టుకునే టోపీ.",
+            "టోపీ పెడితే అందంరా, ఎండ తగలకుండా కాపాడునురా!",
+            "మరోసారి చెబుదాం: 'ట' అంటే 'టోపీ'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ఠ' అక్షరం. 'ఠ' అని పలకండి. 'ఠ' అంటే 'ఠంకం'. మెరిసే బంగారు నాణెం. ఠంకం నాణెం మెరిసింది, చేతిలోన తళతళలాడింది! మరోసారి చెబుదాం: 'ఠ' అంటే 'ఠంకం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, holding a giant shiny gold coin (thankam). Thick rounded outlines, playful tone.",
+        "letter": "ఠ",
+        "example_word_transliteration": "Thankam",
+        "example_word": "ఠంకం",
+        "is_conjunct": false,
+        "stroke_description": "Draw a perfect circle, place a horizontal tick on top, and add a dot exactly in the center.",
+        "sound": "th as in hot-house (aspirated retroflex)",
+        "example_word_meaning": "Gold Coin",
+        "video_script": [
+            "ఇది 'ఠ' అక్షరం. 'ఠ' అని పలకండి.",
+            "'ఠ' అంటే 'ఠంకం'. మెరిసే బంగారు నాణెం.",
+            "ఠంకం నాణెం మెరిసింది, చేతిలోన తళతళలాడింది!",
+            "మరోసారి చెబుదాం: 'ఠ' అంటే 'ఠంకం'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'డ' అక్షరం. 'డ' అని పలకండి. 'డ' అంటే 'డమరుకం'. శివుని చిన్న డమరుకం. డమరుకం మ్రోగెను ఢమఢమ, నాట్యం చేయుము చకచక! మరోసారి చెబుదాం: 'డ' అంటే 'డమరుకం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, playing a tiny hourglass-shaped drum (damarukam). Thick rounded outlines, playful tone.",
+        "letter": "డ",
+        "example_word_transliteration": "Damarukam",
+        "example_word": "డమరుకం",
+        "is_conjunct": false,
+        "stroke_description": "Draw a small loop at the bottom, curve up and down in a wave, then place a horizontal tick on top.",
+        "sound": "d as in dog (retroflex)",
+        "example_word_meaning": "Small Drum",
+        "video_script": [
+            "ఇది 'డ' అక్షరం. 'డ' అని పలకండి.",
+            "'డ' అంటే 'డమరుకం'. శివుని చిన్న డమరుకం.",
+            "డమరుకం మ్రోగెను ఢమఢమ, నాట్యం చేయుము చకచక!",
+            "మరోసారి చెబుదాం: 'డ' అంటే 'డమరుకం'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ఢ' అక్షరం. 'ఢ' అని పలకండి. 'ఢ' అంటే 'ఢంకా'. పండుగలో వాయించే పెద్ద డప్పు. ఢంకా మోగెను డండండం, పిల్లలంతా చేద్దాం నృత్యం! మరోసారి చెబుదాం: 'ఢ' అంటే 'ఢంకా'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, beating a giant festive drum (dhanka) with drumsticks. Thick rounded outlines, playful tone.",
+        "letter": "ఢ",
+        "example_word_transliteration": "Dhanka",
+        "example_word": "ఢంకా",
+        "is_conjunct": false,
+        "stroke_description": "Draw the letter 'డ' structure, add a tick on top, and add a small vertical dash underneath the base curve.",
+        "sound": "dh as in red-haired (aspirated retroflex)",
+        "example_word_meaning": "Large Drum",
+        "video_script": [
+            "ఇది 'ఢ' అక్షరం. 'ఢ' అని పలకండి.",
+            "'ఢ' అంటే 'ఢంకా'. పండుగలో వాయించే పెద్ద డప్పు.",
+            "ఢంకా మోగెను డండండం, పిల్లలంతా చేద్దాం నృత్యం!",
+            "మరోసారి చెబుదాం: 'ఢ' అంటే 'ఢంకా'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ణ' అక్షరం. 'ణ' అని పలకండి. 'ణ' అక్షరంతో 'వీణ'. సరస్వతి దేవి చేతిలోని వీణ. వీణ పలికెను మధురంగా, పాటలు పాడదాం హాయిగా! మరోసారి చెబుదాం: 'ణ' అంటే 'వీణ'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, playing a beautiful wooden stringed instrument (veena). Thick rounded outlines, playful tone.",
+        "letter": "ణ",
+        "example_word_transliteration": "Veena",
+        "example_word": "వీణ",
+        "is_conjunct": false,
+        "stroke_description": "Draw three small vertical wave loops next to each other, and finish with a large curve wrapping around on the right.",
+        "sound": "n as in under (retroflex)",
+        "example_word_meaning": "Lute",
+        "video_script": [
+            "ఇది 'ణ' అక్షరం. 'ణ' అని పలకండి.",
+            "'ణ' అక్షరంతో 'వీణ'. సరస్వతి దేవి చేతిలోని వీణ.",
+            "వీణ పలికెను మధురంగా, పాటలు పాడదాం హాయిగా!",
+            "మరోసారి చెబుదాం: 'ణ' అంటే 'వీణ'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'త' అక్షరం. 'త' అని పలకండి. 'త' అంటే 'తబలా'. చేతులతో వాయించే తబలా. తబలా దరువులు తకధిమి తోం, తాళం వేస్తూ పాడుదాం! మరోసారి చెబుదాం: 'త' అంటే 'తబలా'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, playing a pair of small Indian hand drums (tabala). Thick rounded outlines, playful tone.",
+        "letter": "త",
+        "example_word_transliteration": "Tabala",
+        "example_word": "తబలా",
+        "is_conjunct": false,
+        "stroke_description": "Draw a loop on the left, loop down and up, then draw a horizontal line with a vertical tick on top.",
+        "sound": "t as in thin",
+        "example_word_meaning": "Drums",
+        "video_script": [
+            "ఇది 'త' అక్షరం. 'త' అని పలకండి.",
+            "'త' అంటే 'తబలా'. చేతులతో వాయించే తబలా.",
+            "తబలా దరువులు తకధిమి తోం, తాళం వేస్తూ పాడుదాం!",
+            "మరోసారి చెబుదాం: 'త' అంటే 'తబలా'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'థ' అక్షరం. 'థ' అని పలకండి. 'థ' అక్షరంతో 'రథం'. ఊరేగింపు చేసే పెద్ద రథం. రథము కదిలెను వీధుల్లో, పండుగ తెచ్చెను గుండెల్లో! మరోసారి చెబుదాం: 'థ' అంటే 'రథం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, riding on a beautifully decorated toy chariot (ratham). Thick rounded outlines, playful tone.",
+        "letter": "థ",
+        "example_word_transliteration": "Ratham",
+        "example_word": "రథం",
+        "is_conjunct": false,
+        "stroke_description": "Draw a circle, place a horizontal tick on top, add a dot in the center, and a vertical dash at the bottom.",
+        "sound": "th as in thunder (aspirated)",
+        "example_word_meaning": "Chariot",
+        "video_script": [
+            "ఇది 'థ' అక్షరం. 'థ' అని పలకండి.",
+            "'థ' అక్షరంతో 'రథం'. ఊరేగింపు చేసే పెద్ద రథం.",
+            "రథము కదిలెను వీధుల్లో, పండుగ తెచ్చెను గుండెల్లో!",
+            "మరోసారి చెబుదాం: 'థ' అంటే 'రథం'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ద' అక్షరం. 'ద' అని పలకండి. 'ద' అంటే 'ద్రాక్ష'. తీపి పులుపు ద్రాక్షపండ్లు. ద్రాక్ష గుత్తులు తిందామా, నోరంతా తీపి చేద్దామా! మరోసారి చెబుదాం: 'ద' అంటే 'ద్రాక్ష'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, holding a bunch of sweet grapes (draksha). Thick rounded outlines, playful tone.",
+        "letter": "ద",
+        "example_word_transliteration": "Draksha",
+        "example_word": "ద్రాక్ష",
+        "is_conjunct": false,
+        "stroke_description": "Draw a small loop, curve upwards and left, then make a downward curving hook at the bottom.",
+        "sound": "d as in the",
+        "example_word_meaning": "Grapes",
+        "video_script": [
+            "ఇది 'ద' అక్షరం. 'ద' అని పలకండి.",
+            "'ద' అంటే 'ద్రాక్ష'. తీపి పులుపు ద్రాక్షపండ్లు.",
+            "ద్రాక్ష గుత్తులు తిందామా, నోరంతా తీపి చేద్దామా!",
+            "మరోసారి చెబుదాం: 'ద' అంటే 'ద్రాక్ష'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ధ' అక్షరం. 'ధ' అని పలకండి. 'ధ' అంటే 'ధనస్సు'. రాముడి చేతిలోని విల్లు. ధనస్సు ఎక్కుపెట్టాడు రాముడు, విజయాన్ని సాధించాడు చూడు! మరోసారి చెబుదాం: 'ధ' అంటే 'ధనస్సు'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, holding a small wooden toy bow (dhanassu) decorated with flowers. Thick rounded outlines, playful tone.",
+        "letter": "ధ",
+        "example_word_transliteration": "Dhanassu",
+        "example_word": "ధనస్సు",
+        "is_conjunct": false,
+        "stroke_description": "Draw the letter 'ద' first, then add a vertical tick on top and a small vertical dash underneath.",
+        "sound": "dh as in adhere (aspirated)",
+        "example_word_meaning": "Bow",
+        "video_script": [
+            "ఇది 'ధ' అక్షరం. 'ధ' అని పలకండి.",
+            "'ధ' అంటే 'ధనస్సు'. రాముడి చేతిలోని విల్లు.",
+            "ధనస్సు ఎక్కుపెట్టాడు రాముడు, విజయాన్ని సాధించాడు చూడు!",
+            "మరోసారి చెబుదాం: 'ధ' అంటే 'ధనస్సు'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'న' అక్షరం. 'న' అని పలకండి. 'న' అంటే 'నక్షత్రం'. ఆకాశంలో మెరిసే నక్షత్రం. నక్షత్రాలు మిలమిల మెరిసెను, నింగికి అందాన్ని తెచ్చెను! మరోసారి చెబుదాం: 'న' అంటే 'నక్షత్రం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, catching a glowing magical star (nakshatram). Thick rounded outlines, playful tone.",
+        "letter": "న",
+        "example_word_transliteration": "Nakshatram",
+        "example_word": "నక్షత్రం",
+        "is_conjunct": false,
+        "stroke_description": "Start with a small loop, draw a horizontal line, then curve down and up to the right, ending with a vertical tick on top.",
+        "sound": "n as in net",
+        "example_word_meaning": "Star",
+        "video_script": [
+            "ఇది 'న' అక్షరం. 'న' అని పలకండి.",
+            "'న' అంటే 'నక్షత్రం'. ఆకాశంలో మెరిసే నక్షత్రం.",
+            "నక్షత్రాలు మిలమిల మెరిసెను, నింగికి అందాన్ని తెచ్చెను!",
+            "మరోసారి చెబుదాం: 'న' అంటే 'నక్షత్రం'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ప' అక్షరం. 'ప' అని పలకండి. 'ప' అంటే 'పడవ'. నీటిలో ప్రయాణించే చిన్న పడవ. పడవ నీటిపై వెళుతుంది, పిల్లలకి ఆనందం ఇస్తుంది! మరోసారి చెబుదాం: 'ప' అంటే 'పడవ'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, sailing a small colorful paper boat (padava) in a puddle. Thick rounded outlines, playful tone.",
+        "letter": "ప",
+        "example_word_transliteration": "Padava",
+        "example_word": "పడవ",
+        "is_conjunct": false,
+        "stroke_description": "Draw a small loop, curve upwards and left, then add a horizontal line with a vertical tick on top.",
+        "sound": "p as in pen",
+        "example_word_meaning": "Boat",
+        "video_script": [
+            "ఇది 'ప' అక్షరం. 'ప' అని పలకండి.",
+            "'ప' అంటే 'పడవ'. నీటిలో ప్రయాణించే చిన్న పడవ.",
+            "పడవ నీటిపై వెళుతుంది, పిల్లలకి ఆనందం ఇస్తుంది!",
+            "మరోసారి చెబుదాం: 'ప' అంటే 'పడవ'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ఫ' అక్షరం. 'ఫ' అని పలకండి. 'ఫ' అంటే 'ఫలము'. తీపి రుచికరమైన ఫలము. ఫలములు ఎంతో తిందాము, నిత్యం ఆరోగ్యంగా ఉందాము! మరోసారి చెబుదాం: 'ఫ' అంటే 'ఫలము'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, holding a basket filled with colorful fresh fruits (phalamu). Thick rounded outlines, playful tone.",
+        "letter": "ఫ",
+        "example_word_transliteration": "Phalamu",
+        "example_word": "ఫలము",
+        "is_conjunct": false,
+        "stroke_description": "Draw the letter 'ప' first, then place a small vertical dash underneath.",
+        "sound": "ph as in physics",
+        "example_word_meaning": "Fruit",
+        "video_script": [
+            "ఇది 'ఫ' అక్షరం. 'ఫ' అని పలకండి.",
+            "'ఫ' అంటే 'ఫలము'. తీపి రుచికరమైన ఫలము.",
+            "ఫలములు ఎంతో తిందాము, నిత్యం ఆరోగ్యంగా ఉందాము!",
+            "మరోసారి చెబుదాం: 'ఫ' అంటే 'ఫలము'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'బ' అక్షరం. 'బ' అని పలకండి. 'బ' అంటే 'బంతి'. గుండ్రటి రంగుల బంతి. బంతి ఆట ఆడదామా, ఆనందంగా గెంతుదామా! మరోసారి చెబుదాం: 'బ' అంటే 'బంతి'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, bouncing a large colorful beach ball (banthi). Thick rounded outlines, playful tone.",
+        "letter": "బ",
+        "example_word_transliteration": "Banthi",
+        "example_word": "బంతి",
+        "is_conjunct": false,
+        "stroke_description": "Draw a large circle, then place a horizontal line and vertical tick on top.",
+        "sound": "b as in ball",
+        "example_word_meaning": "Ball",
+        "video_script": [
+            "ఇది 'బ' అక్షరం. 'బ' అని పలకండి.",
+            "'బ' అంటే 'బంతి'. గుండ్రటి రంగుల బంతి.",
+            "బంతి ఆట ఆడదామా, ఆనందంగా గెంతుదామా!",
+            "మరోసారి చెబుదాం: 'బ' అంటే 'బంతి'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'భ' అక్షరం. 'భ' అని పలకండి. 'భ' అంటే 'భవనం'. పెద్ద అందమైన కోట వంటి ఇల్లు. భవనం చూడు ఎంత అందం, రాజభవనం మనకు ఆనందం! మరోసారి చెబుదాం: 'భ' అంటే 'భవనం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, building a beautiful castle (bhavanam) out of toy blocks. Thick rounded outlines, playful tone.",
+        "letter": "భ",
+        "example_word_transliteration": "Bhavanam",
+        "example_word": "భవనం",
+        "is_conjunct": false,
+        "stroke_description": "Draw the letter 'బ' first, then add a small vertical dash underneath.",
+        "sound": "bh as in club-house (aspirated)",
+        "example_word_meaning": "Castle",
+        "video_script": [
+            "ఇది 'భ' అక్షరం. 'భ' అని పలకండి.",
+            "'భ' అంటే 'భవనం'. పెద్ద అందమైన కోట వంటి ఇల్లు.",
+            "భవనం చూడు ఎంత అందం, రాజభవనం మనకు ఆనందం!",
+            "మరోసారి చెబుదాం: 'భ' అంటే 'భవనం'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'మ' అక్షరం. 'మ' అని పలకండి. 'మ' అంటే 'మొసలి'. నీటిలో ఉండే పెద్ద మొసలి. మొసలి మెల్లగా ఈదుతుంది, చూస్తే భయం వేస్తుంది! మరోసారి చెబుదాం: 'మ' అంటే 'మొసలి'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, waving at a friendly smiling crocodile (mosali) in the water. Thick rounded outlines, playful tone.",
+        "letter": "మ",
+        "example_word_transliteration": "Mosali",
+        "example_word": "మొసలి",
+        "is_conjunct": false,
+        "stroke_description": "Draw a small circle, curve upwards and left, then add a horizontal line with a vertical tick on top.",
+        "sound": "m as in mother",
+        "example_word_meaning": "Crocodile",
+        "video_script": [
+            "ఇది 'మ' అక్షరం. 'మ' అని పలకండి.",
+            "'మ' అంటే 'మొసలి'. నీటిలో ఉండే పెద్ద మొసలి.",
+            "మొసలి మెల్లగా ఈదుతుంది, చూస్తే భయం వేస్తుంది!",
+            "మరోసారి చెబుదాం: 'మ' అంటే 'మొసలి'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'య' అక్షరం. 'య' అని పలకండి. 'య' అంటే 'యోధుడు'. దేశాన్ని రక్షించే వీరుడు. యోధుడు మనలను రక్షించు, శత్రువుల నుండి కాపాడు! మరోసారి చెబుదాం: 'య' అంటే 'యోధుడు'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, dressed as a brave little prince with a wooden shield and cape. Thick rounded outlines, playful tone.",
+        "letter": "య",
+        "example_word_transliteration": "Yodhudu",
+        "example_word": "యోధుడు",
+        "is_conjunct": false,
+        "stroke_description": "Draw a large circle, curve upwards and left, then place a horizontal line and vertical tick on top.",
+        "sound": "y as in yes",
+        "example_word_meaning": "Warrior",
+        "video_script": [
+            "ఇది 'య' అక్షరం. 'య' అని పలకండి.",
+            "'య' అంటే 'యోధుడు'. దేశాన్ని రక్షించే వీరుడు.",
+            "యోధుడు మనలను రక్షించు, శత్రువుల నుండి కాపాడు!",
+            "మరోసారి చెబుదాం: 'య' అంటే 'యోధుడు'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ర' అక్షరం. 'ర' అని పలకండి. 'ర' అంటే 'రవి'. ఆకాశంలో ప్రకాశించే సూర్యుడు. రవి వచ్చెను లోకానికి, వెలుగును తెచ్చెను మనకి! మరోసారి చెబుదాం: 'ర' అంటే 'రవి'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, smiling and greeting a friendly warm rising sun (ravi). Thick rounded outlines, playful tone.",
+        "letter": "ర",
+        "example_word_transliteration": "Ravi",
+        "example_word": "రవి",
+        "is_conjunct": false,
+        "stroke_description": "Draw a perfect circle, and place a horizontal line with a vertical tick on top.",
+        "sound": "r as in run",
+        "example_word_meaning": "Sun",
+        "video_script": [
+            "ఇది 'ర' అక్షరం. 'ర' అని పలకండి.",
+            "'ర' అంటే 'రవి'. ఆకాశంలో ప్రకాశించే సూర్యుడు.",
+            "రవి వచ్చెను లోకానికి, వెలుగును తెచ్చెను మనకి!",
+            "మరోసారి చెబుదాం: 'ర' అంటే 'రవి'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ల' అక్షరం. 'ల' అని పలకండి. 'ల' అంటే 'లడ్డు'. నోరూరు ఊరించే లడ్డు. లడ్డు తింటే తీపిరా, పిల్లలకది ఎంతో ఇష్టంరా! మరోసారి చెబుదాం: 'ల' అంటే 'లడ్డు'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, holding a giant, delicious yellow Indian sweet (laddu). Thick rounded outlines, playful tone.",
+        "letter": "ల",
+        "example_word_transliteration": "Laddu",
+        "example_word": "లడ్డు",
+        "is_conjunct": false,
+        "stroke_description": "Draw an S-shape curve rotated 90 degrees clockwise.",
+        "sound": "l as in love",
+        "example_word_meaning": "Sweet",
+        "video_script": [
+            "ఇది 'ల' అక్షరం. 'ల' అని పలకండి.",
+            "'ల' అంటే 'లడ్డు'. నోరూరు ఊరించే లడ్డు.",
+            "లడ్డు తింటే తీపిరా, పిల్లలకది ఎంతో ఇష్టంరా!",
+            "మరోసారి చెబుదాం: 'ల' అంటే 'లడ్డు'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'వ' అక్షరం. 'వ' అని పలకండి. 'వ' అంటే 'వాన'. ఆకాశం నుండి కురిసే వర్షం. వాన వాన వల్లప్ప, చేతులు చాపి మొగ్గప్ప! మరోసారి చెబుదాం: 'వ' అంటే 'వాన'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, dancing happily under a gentle rain shower (vaana). Thick rounded outlines, playful tone.",
+        "letter": "వ",
+        "example_word_transliteration": "Vaana",
+        "example_word": "వాన",
+        "is_conjunct": false,
+        "stroke_description": "Draw a small loop, curve down and up to the right, then place a horizontal line and a vertical tick on top.",
+        "sound": "v as in van",
+        "example_word_meaning": "Rain",
+        "video_script": [
+            "ఇది 'వ' అక్షరం. 'వ' అని పలకండి.",
+            "'వ' అంటే 'వాన'. ఆకాశం నుండి కురిసే వర్షం.",
+            "వాన వాన వల్లప్ప, చేతులు చాపి మొగ్గప్ప!",
+            "మరోసారి చెబుదాం: 'వ' అంటే 'వాన'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'శ' అక్షరం. 'శ' అని పలకండి. 'శ' అంటే 'శంఖం'. పూజలలో ఊదే శంఖం. శంఖం ఊదితే శుభమురా, మంగళ ధ్వనులు వినబడురా! మరోసారి చెబుదాం: 'శ' అంటే 'శంఖం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, blowing into a large magical white conch shell (shankham). Thick rounded outlines, playful tone.",
+        "letter": "శ",
+        "example_word_transliteration": "Shankham",
+        "example_word": "శంఖం",
+        "is_conjunct": false,
+        "stroke_description": "Draw a small loop, curve up and down like an 'm', then add a downward hook on the right.",
+        "sound": "sh as in ship",
+        "example_word_meaning": "Conch Shell",
+        "video_script": [
+            "ఇది 'శ' అక్షరం. 'శ' అని పలకండి.",
+            "'శ' అంటే 'శంఖం'. పూజలలో ఊదే శంఖం.",
+            "శంఖం ఊదితే శుభమురా, మంగళ ధ్వనులు వినబడురా!",
+            "మరోసారి చెబుదాం: 'శ' అంటే 'శంఖం'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ష' అక్షరం. 'ష' అని పలకండి. 'ష' అంటే 'షట్కోణం'. ఆరు కోణాల ఆకారం. షట్కోణం చూడు భలేగా, ఆరు దిక్కులు కలిసినట్టుగా! మరోసారి చెబుదాం: 'ష' అంటే 'షట్కోణం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, tracing a large colorful hexagon shape (shatkonam). Thick rounded outlines, playful tone.",
+        "letter": "ష",
+        "example_word_transliteration": "Shatkonam",
+        "example_word": "షట్కోణం",
+        "is_conjunct": false,
+        "stroke_description": "Draw the letter 'ప' first, then draw a horizontal line crossing through its center and a tick on top.",
+        "sound": "sh as in harsh (retroflex)",
+        "example_word_meaning": "Hexagon",
+        "video_script": [
+            "ఇది 'ష' అక్షరం. 'ష' అని పలకండి.",
+            "'ష' అంటే 'షట్కోణం'. ఆరు కోణాల ఆకారం.",
+            "షట్కోణం చూడు భలేగా, ఆరు దిక్కులు కలిసినట్టుగా!",
+            "మరోసారి చెబుదాం: 'ష' అంటే 'షట్కోణం'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'స' అక్షరం. 'స' అని పలకండి. 'స' అంటే 'సింహం'. అడవికి రాజు సింహం. సింహం గర్జన వింటేనే, జంతువులన్నీ పారిపోవునే! మరోసారి చెబుదాం: 'స' అంటే 'సింహం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, playing with a cute little friendly lion cub (simham). Thick rounded outlines, playful tone.",
+        "letter": "స",
+        "example_word_transliteration": "Simham",
+        "example_word": "సింహం",
+        "is_conjunct": false,
+        "stroke_description": "Draw a loop, curve up and down, draw a loop on the right, and add a tick at the top right.",
+        "sound": "s as in sun",
+        "example_word_meaning": "Lion",
+        "video_script": [
+            "ఇది 'స' అక్షరం. 'స' అని పలకండి.",
+            "'స' అంటే 'సింహం'. అడవికి రాజు సింహం.",
+            "సింహం గర్జన వింటేనే, జంతువులన్నీ పారిపోవునే!",
+            "మరోసారి చెబుదాం: 'స' అంటే 'సింహం'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'హ' అక్షరం. 'హ' అని పలకండి. 'హ' అంటే 'హరివిల్లు'. ఏడు రంగుల హరివిల్లు. హరివిల్లు విరిసెను నింగిలో, రంగులు నిండెను నేలలో! మరోసారి చెబుదాం: 'హ' అంటే 'హరివిల్లు'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, pointing at a beautiful colorful rainbow (harivillu) in the sky. Thick rounded outlines, playful tone.",
+        "letter": "హ",
+        "example_word_transliteration": "Harivillu",
+        "example_word": "హరివిల్లు",
+        "is_conjunct": false,
+        "stroke_description": "Draw a small loop at the bottom, curve up and down in an S-shape, then place a horizontal tick on top.",
+        "sound": "h as in home",
+        "example_word_meaning": "Rainbow",
+        "video_script": [
+            "ఇది 'హ' అక్షరం. 'హ' అని పలకండి.",
+            "'హ' అంటే 'హరివిల్లు'. ఏడు రంగుల హరివిల్లు.",
+            "హరివిల్లు విరిసెను నింగిలో, రంగులు నిండెను నేలలో!",
+            "మరోసారి చెబుదాం: 'హ' అంటే 'హరివిల్లు'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ళ' అక్షరం. 'ళ' అని పలకండి. 'ళ' అక్షరంతో 'తాళం'. ఇంటిని కాపాడే తాళం. తాళం వేసి భద్రంగా, ఇంటిని ఉంచుదాం సురక్షితంగా! మరోసారి చెబుదాం: 'ళ' అంటే 'తాళం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, holding a large golden key to open a toy lock (thaalam). Thick rounded outlines, playful tone.",
+        "letter": "ళ",
+        "example_word_transliteration": "Thaalam",
+        "example_word": "తాళం",
+        "is_conjunct": false,
+        "stroke_description": "Draw a curve looping left and right like two joined waves, then add a horizontal line with a vertical tick on top.",
+        "sound": "l as in cool (retroflex)",
+        "example_word_meaning": "Lock",
+        "video_script": [
+            "ఇది 'ళ' అక్షరం. 'ళ' అని పలకండి.",
+            "'ళ' అక్షరంతో 'తాళం'. ఇంటిని కాపాడే తాళం.",
+            "తాళం వేసి భద్రంగా, ఇంటిని ఉంచుదాం సురక్షితంగా!",
+            "మరోసారి చెబుదాం: 'ళ' అంటే 'తాళం'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'క్ష' అక్షరం. 'క్ష' అని పలకండి. 'క్ష' అక్షరంతో 'వృక్షం'. మనకు నీడ నిచ్చే పెద్ద చెట్టు. వృక్షమును పెంచుదామురా, చల్లని గాలిని పొందుదామురా! మరోసారి చెబుదాం: 'క్ష' అంటే 'వృక్షం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, sitting under the cool shade of a large green tree (vruksham). Thick rounded outlines, playful tone.",
+        "letter": "క్ష",
+        "example_word_transliteration": "Vruksham",
+        "example_word": "వృక్షం",
+        "is_conjunct": true,
+        "stroke_description": "This is a conjunct of క (k) and ష (sh). First draw the letter 'క' shape, and attach the retroflex 'sh' sub-joined stroke at the bottom.",
+        "sound": "ksh as in action",
+        "example_word_meaning": "Tree",
+        "video_script": [
+            "ఇది 'క్ష' అక్షరం. 'క్ష' అని పలకండి.",
+            "'క్ష' అక్షరంతో 'వృక్షం'. మనకు నీడ నిచ్చే పెద్ద చెట్టు.",
+            "వృక్షమును పెంచుదామురా, చల్లని గాలిని పొందుదామురా!",
+            "మరోసారి చెబుదాం: 'క్ష' అంటే 'వృక్షం'!"
+        ],
+        "type": "consonant"
+    },
+    {
+        "tts_text": "ఇది 'ఱ' అక్షరం. 'ఱ' అని పలకండి. 'ఱ' అక్షరంతో 'గుర్రం'. వేగంగా పరిగెత్తే గుర్రం. గుర్రం కదిలెను టికటికలా, వేగంగా పరుగెత్తెను గాలిలా! మరోసారి చెబుదాం: 'ఱ' అంటే 'గుర్రం'!",
+        "image_prompt": "Flat chibi-style pastel vector illustration of Chinnu, a cute friendly baby peacock with soft blue and teal feathers, riding on a cute colorful toy rocking horse (gurram). Thick rounded outlines, playful tone.",
+        "letter": "ఱ",
+        "example_word_transliteration": "Gurram",
+        "example_word": "గుర్రం",
+        "is_conjunct": false,
+        "stroke_description": "Draw two large overlapping circular loops horizontally, and place a tick on the top center.",
+        "sound": "rr as in raw (trilled)",
+        "example_word_meaning": "Horse",
+        "video_script": [
+            "ఇది 'ఱ' అక్షరం. 'ఱ' అని పలకండి.",
+            "'ఱ' అక్షరంతో 'గుర్రం'. వేగంగా పరిగెత్తే గుర్రం.",
+            "గుర్రం కదిలెను టికటికలా, వేగంగా పరుగెత్తెను గాలిలా!",
+            "మరోసారి చెబుదాం: 'ఱ' అంటే 'గుర్రం'!"
+        ],
+        "type": "consonant"
+    }
+]
