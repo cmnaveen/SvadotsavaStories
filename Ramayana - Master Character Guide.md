@@ -17,7 +17,7 @@
 
 ### 1. RAMA (Prince & King of Ayodhya)
 * **Skin Tone:** Luminous, smooth blue-teal skin, radiating a gentle inner glow.
-* **Age & Body Type:** Late twenties; tall, broad-shouldered, muscular yet slender and graceful build (*simha-vyaghra-sadrisha*).
+* **Age & Body Type:** Late twenties; tall, broad-shouldered, highly muscular and heroic warrior build (*simha-vyaghra-sadrisha*), with powerful arms.
 * **Facial Features & Expression:** Large, warm, expressive dark eyes with long lashes; high noble forehead; calm, brave, serene half-smile showing unshakeable inner peace.
 * **Hairstyle:** Black hair tied in an ascetic topknot (*jata*) for forest scenes, or styled under a crown for palace scenes.
 * **Costume & Ornaments:** 
@@ -26,7 +26,7 @@
 * **Weapons/Accessories:** A large golden composite bow (*vaishnava-dhanus* or *kodanda*), and a leather quiver filled with arrows strapped across the back.
 * **Posture:** Standing tall and noble, radiating protective strength and serene command.
 * **AI Prompt:** 
-  > `[RAMA: luminous blue-teal-skinned young warrior-prince; large warm expressive dark eyes; noble forehead; tall powerful build; simple ochre bark-cloth uttariya; plain white dhoti; topknot; yajnopavita; barefoot; composite bow in hand; quiver on back; expression of serene unshakeable inner peace]`
+  > `[RAMA: luminous blue-teal-skinned strong heroic warrior-prince; large warm expressive dark eyes; noble forehead; tall broad-shouldered highly muscular build; simple ochre bark-cloth uttariya; plain white dhoti; topknot; yajnopavita; barefoot; holding a massive golden bow; quiver on back; expression of serene unshakeable inner peace and heroic strength]`
 
 ### 2. LAKSHMANA (Rama's Devoted Brother)
 * **Skin Tone:** Warm bronze-tawny skin.
