@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "Rāmāyaṇa Stories",
+			"path": "ramayana-stories"
+		},
+		{
+			"name": "Telugu Varnamala",
+			"path": "telugu-varnamala"
+		},
+		{
+			"name": "Root",
+			"path": "."
+		}
+	]
+}

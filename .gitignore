@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Generated video build artifacts
+output_reels/
+**/temp/
+
+# Downloaded TTS/font caches (re-fetched on demand)
+NotoSansTelugu-Regular.ttf
+
+# Stray temp image exports
+mascot_anchor_*.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Claude Code local tooling/workspace
+.claude/

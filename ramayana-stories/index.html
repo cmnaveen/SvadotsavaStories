@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📖 The True Rāmāyaṇa - 10-Episode Kids Series</title>
+  
+  <!-- Premium Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@500;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-warm">
+  <!-- Decorative Background Glows -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <!-- Main Container -->
+  <div class="app-container">
+    
+    <!-- Top Header Bar -->
+    <header class="main-header">
+      <div class="header-logo" id="headerLogo">
+        <span class="logo-icon">🕉️</span>
+        <h1 class="logo-text">Bālakāṇḍa Chronicles</h1>
+      </div>
+      
+      <div class="header-controls">
+        <!-- Ambient Sound Toggle -->
+        <button id="ambientSoundBtn" class="control-btn icon-btn" title="Toggle Ambient Flute Sound">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
+          <span class="btn-text">Ambient Drone</span>
+        </button>
+
+        <!-- Theme Selector -->
+        <div class="theme-selector">
+          <button id="themeWarmBtn" class="theme-dot warm active" title="Temple Glow Theme"></button>
+          <button id="themeLightBtn" class="theme-dot light" title="Scribe Scroll Theme"></button>
+          <button id="themeDarkBtn" class="theme-dot dark" title="Night Forest Theme"></button>
+        </div>
+
+        <button id="badgeRoomNavBtn" class="control-btn nav-btn">
+          <span>🏅 Badge Room</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="main-content">
+      
+      <!-- VIEW 1: COVER SCREEN -->
+      <section id="coverView" class="view-section active">
+        <div class="cover-card">
+          <div class="cover-image-container">
+            <img src="images/cover.png" alt="Young Rama with Golden Bow" class="cover-image">
+            <div class="cover-overlay"></div>
+          </div>
+          <div class="cover-content">
+            <h2 class="book-title">The True Rāmāyaṇa</h2>
+            <p class="book-subtitle">A 10-Episode Interactive Journey for Kids</p>
+            <div class="book-intro">
+              <p>Step into ancient Ayodhyā and follow the extraordinary childhood adventures of Prince Rāma and his brothers. Learn the values of truth, love, and courage that shaped the greatest epic in history.</p>
+            </div>
+            
+            <div class="progress-preview">
+              <div class="progress-bar-container">
+                <div id="coverProgressBar" class="progress-bar-fill" style="width: 0%"></div>
+              </div>
+              <span id="coverProgressText" class="progress-text">0 / 10 Episodes Completed</span>
+            </div>
+
+            <button id="startReadingBtn" class="primary-btn pulse-glow">
+              <span>Start Journey 🌟</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 2: BOOK READER SCREEN -->
+      <section id="readerView" class="view-section">
+        <div class="reader-layout">
+          <!-- Left side: Illustration Card -->
+          <div class="illustration-panel">
+            <div class="illustration-frame">
+              <img id="episodeImage" src="images/cover.png" alt="Episode Illustration" class="episode-image">
+              <div class="illustration-caption" id="episodeCaption">King Daśaratha performs the Putrakāmeṣṭi Yajña.</div>
+            </div>
+          </div>
+
+          <!-- Right side: Reading Content -->
+          <div class="content-panel">
+            <div class="reader-nav-header">
+              <button id="backToCoverBtn" class="text-link-btn">← Home</button>
+              <div class="chapter-indicator" id="chapterIndicator">Episode 1 of 10</div>
+            </div>
+
+            <article class="story-article">
+              <h3 class="episode-title" id="episodeTitle">1. Birth of Rāma</h3>
+              
+              <!-- Text-to-Speech Controls -->
+              <div class="tts-bar">
+                <button id="ttsPlayPauseBtn" class="tts-btn" title="Read Story Aloud">
+                  <svg class="icon play-icon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                  <svg class="icon pause-icon hidden" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                  <span>Listen Aloud</span>
+                </button>
+                <button id="ttsStopBtn" class="tts-btn icon-btn" title="Stop Narration" disabled>
+                  <svg class="icon" viewBox="0 0 24 24"><path d="M6 6h12v12H6z"/></svg>
+                </button>
+                <div class="tts-speed-control">
+                  <label for="ttsSpeed">Speed:</label>
+                  <input type="range" id="ttsSpeed" min="0.7" max="1.3" step="0.1" value="1">
+                  <span id="ttsSpeedVal">1.0x</span>
+                </div>
+              </div>
+
+              <!-- Story Paragraphs -->
+              <div class="story-text" id="storyText">
+                <!-- Will be injected by JS for perfect phrase wrapping -->
+              </div>
+
+              <!-- Moral Card -->
+              <div class="moral-card">
+                <span class="moral-badge">Moral Wisdom</span>
+                <p class="moral-content" id="storyMoral">Faith and devotion bring divine blessings.</p>
+              </div>
+            </article>
+
+            <!-- Quiz Card -->
+            <div class="quiz-container" id="quizContainer">
+              <div class="quiz-header">
+                <h4>Quiz: Test Your Wisdom! 🧩</h4>
+                <p id="quizInstructions">Answer correctly to unlock this episode's badge!</p>
+              </div>
+              <div class="quiz-question" id="quizQuestion">What ritual did King Daśaratha perform?</div>
+              <div class="quiz-options" id="quizOptions">
+                <!-- Injected by JS -->
+              </div>
+              <div class="quiz-feedback hidden" id="quizFeedback">
+                <span class="feedback-icon">🎉</span>
+                <span class="feedback-text">Excellent! You've unlocked the <strong>Faith Badge</strong>!</span>
+              </div>
+            </div>
+
+            <!-- Reading Navigation Footer -->
+            <footer class="reader-footer">
+              <button id="prevEpBtn" class="nav-arrow-btn" disabled>
+                <span>← Previous</span>
+              </button>
+              <div class="reader-progress-dots" id="readerProgressDots">
+                <!-- Dots injected by JS -->
+              </div>
+              <button id="nextEpBtn" class="nav-arrow-btn">
+                <span>Next →</span>
+              </button>
+            </footer>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 3: BADGE ROOM SCREEN -->
+      <section id="badgeRoomView" class="view-section">
+        <div class="badge-room-card">
+          <div class="badge-room-header">
+            <button id="closeBadgeRoomBtn" class="text-link-btn">← Back to Reading</button>
+            <h2 class="section-title">Your Sacred Badge Collection</h2>
+            <p class="section-subtitle">Earn badges by reading episodes and answering their quizzes correctly!</p>
+          </div>
+
+          <div class="badge-grid" id="badgeGrid">
+            <!-- 10 Badge Cards Injected by JS -->
+          </div>
+
+          <div class="badge-room-actions">
+            <button id="resetProgressBtn" class="danger-btn">
+              <span>Reset All Progress</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    
+    <!-- Canvas for Confetti -->
+    <canvas id="confettiCanvas"></canvas>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

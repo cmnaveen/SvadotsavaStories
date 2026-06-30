@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>✨ Telugu Varnamala Reels Studio & QA Portal</title>
+  <meta name="description" content="Interactive production studio to preview, verify, and QA 16:9 landscape video reels for teaching the Telugu Varnamala to kids.">
+  
+  <!-- Modern Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Noto+Sans+Telugu:wght@400;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="preview_style.css?v=4">
+</head>
+<body class="studio-theme">
+  <!-- Glowing Background Effects -->
+  <div class="glow-orb glow-1"></div>
+  <div class="glow-orb glow-2"></div>
+
+  <div class="studio-container">
+    
+    <!-- Top Header -->
+    <header class="studio-header">
+      <div class="header-main">
+        <span class="header-icon">🎬</span>
+        <div>
+          <h1 class="header-title">Varnamala Reels Studio</h1>
+          <p class="header-subtitle">Interactive 16:9 Simulator & Content QA Portal</p>
+        </div>
+      </div>
+      
+      <div class="header-actions">
+        <div class="mascot-badge">
+          <img src="images/mascot_anchor.png?v=4" alt="Mascot Anchor" class="mascot-badge-img" id="headerMascotImg" onerror="this.src='https://placehold.co/100x100?text=Chinnu'">
+          <div class="mascot-badge-info">
+            <span class="mascot-tag">Active Mascot</span>
+            <span class="mascot-name" id="mascotNameText">Chinnu the Peacock</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Studio Layout -->
+    <main class="studio-layout">
+      
+      <!-- LEFT PANEL: Letter Grid -->
+      <section class="panel letter-panel" aria-label="Letter Selection Grid">
+        <div class="panel-header">
+          <h2>Select Akshara</h2>
+          <span class="badge" id="letterCounter">52 Letters Loaded</span>
+        </div>
+        
+        <div class="tab-controls">
+          <button id="tabAll" class="tab-btn active">All</button>
+          <button id="tabVowels" class="tab-btn">Vowels (16)</button>
+          <button id="tabConsonants" class="tab-btn">Consonants (36)</button>
+        </div>
+
+        <div class="letter-grid-container">
+          <div class="grid-section-title">Vowels (అచ్చులు)</div>
+          <div class="letter-grid" id="vowelGrid">
+            <!-- Injected by JS -->
+          </div>
+
+          <div class="grid-section-title">Consonants (హల్లులు)</div>
+          <div class="letter-grid" id="consonantGrid">
+            <!-- Injected by JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- CENTER PANEL: 16:9 Video Simulator -->
+      <section class="panel simulator-panel" aria-label="Landscape Video Simulator">
+        <div class="panel-header">
+          <h2>16:9 Video Simulator</h2>
+          <span class="live-indicator">LIVE PREVIEW</span>
+        </div>
+
+        <div class="simulator-wrapper">
+          <!-- Mobile Phone Bezel -->
+          <div class="phone-frame">
+            
+            <div class="phone-screen" id="reelScreen">
+              <!-- Grid Overlay for Alignment -->
+              <div class="grid-overlay" id="gridOverlay"></div>
+
+              <!-- Content Stage (Reel Frame) -->
+              <div class="reel-stage" id="reelStage">
+                
+                <!-- Beat 1: Hook (0-2s) -->
+                <div class="stage-layer layer-hook active" id="layerHook">
+                  <div class="hook-bubble animate-pop">ఇవాళ ఏ అక్షరం?</div>
+                  <div class="stage-mascot-container">
+                    <img src="images/mascot_anchor.png?v=4" alt="Chinnu" class="stage-mascot animate-bounce" onerror="this.src='https://placehold.co/300x300?text=Chinnu'">
+                  </div>
+                </div>
+
+                <!-- Beat 2: Letter Trace (2-6s) -->
+                <div class="stage-layer layer-trace" id="layerTrace">
+                  <svg class="trace-svg" id="traceSvg" viewBox="0 0 200 200">
+                    <defs>
+                      <!-- Left-to-right reveal window used by the text-fallback mode -->
+                      <clipPath id="traceRevealClip">
+                        <rect id="traceRevealRect" x="0" y="0" width="0" height="200"></rect>
+                      </clipPath>
+                      <!-- Slate-writing mask: a thick "chalk" stroke sweeps along the
+                           glyph and progressively uncovers the solid fill behind the tip. -->
+                      <mask id="traceWriteMask" maskUnits="userSpaceOnUse" x="0" y="0" width="200" height="200">
+                        <rect x="0" y="0" width="200" height="200" fill="black"/>
+                        <path id="traceMaskPath" d="" fill="none" stroke="#fff" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+                      </mask>
+
+                      <!-- Chalk texture visual effect filter -->
+                      <filter id="chalkFilter" x="-10%" y="-10%" width="120%" height="120%" filterUnits="userSpaceOnUse">
+                        <!-- Fractal noise for realistic grainy chalk texture -->
+                        <feTurbulence type="fractalNoise" baseFrequency="0.4" numOctaves="3" result="noise" />
+                        <!-- Displace SourceGraphic outline to render rough, chalky, textured edges -->
+                        <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G" result="displaced" />
+                        <!-- Slightly blend the displaced stroke to make it look like chalk on slate -->
+                        <feGaussianBlur in="displaced" stdDeviation="0.4" />
+                      </filter>
+                    </defs>
+
+                    <!-- Horizontal school slate guidelines (top, middle, baseline) -->
+                    <g id="slateGuidelines" opacity="0.4">
+                      <line x1="10" y1="50" x2="190" y2="50" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="2,4"/>
+                      <line x1="10" y1="100" x2="190" y2="100" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="2,4"/>
+                      <line x1="10" y1="150" x2="190" y2="150" stroke="rgba(255,255,255,0.15)" stroke-width="1" stroke-dasharray="2,4"/>
+                    </g>
+
+                    <!-- VECTOR MODE: step-by-step centerline stroke tracing -->
+                    <g id="traceVectorGroup">
+                      <!-- Faint guides for all stroke segments -->
+                      <g id="tracePathGuideGroup" opacity="0.15" filter="url(#chalkFilter)"></g>
+                      <!-- Active chalk strokes drawn by the brush -->
+                      <g id="tracePathActiveGroup" filter="url(#chalkFilter)"></g>
+                      <!-- Numbered indicator badges showing stroke sequence -->
+                      <g id="traceMarkersGroup"></g>
+                    </g>
+
+                    <!-- TEXT FALLBACK MODE: real font glyph (correct shaping), revealed
+                         left-to-right. Used for conjuncts and when the font fails to load. -->
+                    <text id="traceGlyphGuide" x="100" y="105" text-anchor="middle" dominant-baseline="central" font-family="'Noto Sans Telugu', sans-serif" font-size="130" fill="var(--primary-color)" opacity="0.15" filter="url(#chalkFilter)"></text>
+                    <text id="traceGlyphInk" x="100" y="105" text-anchor="middle" dominant-baseline="central" font-family="'Noto Sans Telugu', sans-serif" font-size="130" fill="var(--primary-color)" clip-path="url(#traceRevealClip)" filter="url(#chalkFilter)"></text>
+
+                    <!-- The "brush" tip that rides along the writing edge (both modes) -->
+                    <circle id="traceBrush" r="6" fill="var(--accent-color)" style="display:none"/>
+                  </svg>
+                  <div class="trace-instruction" id="traceInstructionText">Standard letter form...</div>
+                </div>
+
+                <!-- Beat 3: Word Link (6-13s) & Beat 4: Rhyme (13-20s) -->
+                <div class="stage-layer layer-word" id="layerWord">
+                  <div class="word-card animate-slide-up">
+                    <span class="word-telugu" id="wordTeluguDisplay">అరటి</span>
+                    <span class="word-translit" id="wordTranslitDisplay">Arati</span>
+                    <span class="word-meaning" id="wordMeaningDisplay">Banana</span>
+                  </div>
+                  <div class="stage-mascot-container word-scene">
+                    <!-- In a real app, this image would be generated per letter -->
+                    <!-- We use our mascot anchor as placeholder, with an overlay representing the word-object -->
+                    <img src="images/mascot_anchor.png?v=4" alt="Chinnu" class="stage-mascot" id="wordMascotImg" onerror="this.src='https://placehold.co/300x300?text=Mascot'">
+                    <div class="word-object-bubble animate-float" id="wordObjectBubble">🍌</div>
+                  </div>
+                </div>
+
+                <!-- Beat 5: Outro (20-25s) -->
+                <div class="stage-layer layer-outro" id="layerOutro">
+                  <div class="outro-card animate-pulse">
+                    <div class="outro-logo">🌟</div>
+                    <h3>తెలుగు వర్ణమాల</h3>
+                    <p>Telugu Varnamala Series</p>
+                    <div class="outro-letter-bubble" id="outroLetterBubble">అ</div>
+                  </div>
+                  <div class="stage-mascot-container outro-scene">
+                    <img src="images/mascot_anchor.png?v=4" alt="Chinnu" class="stage-mascot-small" onerror="this.src='https://placehold.co/150x150?text=Chinnu'">
+                  </div>
+                </div>
+
+                <!-- Video HUD Overlays -->
+                <div class="video-hud">
+                  <div class="hud-top">
+                    <span class="hud-letter-tag" id="hudLetterTag">అ</span>
+                    <span class="hud-time" id="hudTimeText">00:00 / 00:25</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Subtitle Box (Captions Box) - Moved down from the board -->
+          <div class="hud-captions-box" id="hudCaptionsBox">
+            <div class="subtitle-line subtitle-telugu" id="subTelugu">అ - అరటి పండు తిందాము</div>
+            <div class="subtitle-line subtitle-english" id="subEnglish">A - Let's eat bananas</div>
+          </div>
+
+          <!-- Simulator Media Controls -->
+          <div class="simulator-controls">
+            <div class="progress-container">
+              <input type="range" id="reelProgress" min="0" max="25" step="0.1" value="0" class="progress-slider">
+              <div class="progress-bar">
+                <div class="progress-bar-fill" id="progressBarFill" style="width: 0%"></div>
+              </div>
+            </div>
+            
+            <div class="control-buttons-bar">
+              <button id="btnPrevReel" class="sim-btn icon-btn" title="Previous Letter">⏮️</button>
+              <button id="btnPlayPause" class="sim-btn play-btn" title="Play / Pause">▶️ Play Reel</button>
+              <button id="btnRestart" class="sim-btn icon-btn" title="Restart">🔄</button>
+              <button id="btnNextReel" class="sim-btn icon-btn" title="Next Letter">⏭️</button>
+            </div>
+            
+            <div class="settings-grid">
+              <div class="setting-item">
+                <label for="ttsRate">TTS Voice Speed:</label>
+                <select id="ttsRate" class="sim-select">
+                  <option value="0.75">0.75x (Slow)</option>
+                  <option value="0.9" selected>0.9x (Normal)</option>
+                  <option value="1.0">1.0x (Fast)</option>
+                </select>
+              </div>
+              <div class="setting-item">
+                <label for="overlayToggle">Show Alignment Grid:</label>
+                <input type="checkbox" id="overlayToggle" class="sim-checkbox">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RIGHT PANEL: Metadata Inspector & Prompts -->
+      <section class="panel inspector-panel" aria-label="Metadata and Prompt Editor">
+        <div class="panel-header">
+          <h2>Asset Inspector</h2>
+          <button id="btnCopyJson" class="action-link">Copy Entry JSON</button>
+        </div>
+
+        <div class="inspector-content">
+          <!-- Letter Metadata Card -->
+          <div class="meta-section">
+            <h3>Basic Details</h3>
+            <div class="meta-grid">
+              <div class="meta-item">
+                <span class="meta-label">Phonetic Sound:</span>
+                <span class="meta-val" id="metaSound">a as in apple</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Letter Type:</span>
+                <span class="meta-val capitalize" id="metaType">vowel</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Example Word:</span>
+                <span class="meta-val font-telugu" id="metaExampleWord">అరటి</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Transliteration:</span>
+                <span class="meta-val" id="metaExampleTranslit">Arati</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">English Meaning:</span>
+                <span class="meta-val" id="metaExampleMeaning">Banana</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Is Conjunct:</span>
+                <span class="meta-val" id="metaIsConjunct">No</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI Image Generator Prompt -->
+          <div class="meta-section">
+            <div class="section-header-row">
+              <h3>AI Image Prompt (Step 3)</h3>
+              <button id="btnCopyPrompt" class="pill-btn">📋 Copy Prompt</button>
+            </div>
+            <textarea id="promptTextArea" class="code-textarea" readonly></textarea>
+            <p class="field-hint">Feed this prompt into Midjourney, DALL-E, or Stable Diffusion referencing the style anchor.</p>
+          </div>
+
+          <!-- Video Narration & TTS Scripts -->
+          <div class="meta-section">
+            <h3>Video Script (Narration beats)</h3>
+            <div class="script-beats" id="scriptBeatsList">
+              <div class="beat-item">
+                <span class="beat-time">0-2s</span>
+                <span class="beat-text" id="beatText1">Introduce Sound</span>
+              </div>
+              <div class="beat-item">
+                <span class="beat-time">2-6s</span>
+                <span class="beat-text" id="beatText2">Introduce Word</span>
+              </div>
+              <div class="beat-item">
+                <span class="beat-time">6-13s</span>
+                <span class="beat-text" id="beatText3">Short 2-Line Rhyme</span>
+              </div>
+              <div class="beat-item">
+                <span class="beat-time">13-20s</span>
+                <span class="beat-text" id="beatText4">Closing Repetition</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- QA Verification Checklist -->
+          <div class="meta-section qa-section">
+            <h3>Native-Speaker QA Checklist (Step 7)</h3>
+            <div class="qa-checklist">
+              <label class="checkbox-label">
+                <input type="checkbox" id="qaAkshara">
+                <span>Correct akshara form rendered</span>
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="qaStroke">
+                <span>Stroke order matches guidelines</span>
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="qaVocab">
+                <span>Age-appropriate common vocabulary</span>
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="qaAudio">
+                <span>Audio pronunciation correct (conjunct-checked)</span>
+              </label>
+            </div>
+            <div class="qa-status-box" id="qaStatusBox">
+              <span>QA Status:</span>
+              <span class="status-badge status-pending" id="qaStatusText">Pending Verification</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- opentype.js: parses the real Telugu font so we can trace actual glyph outlines -->
+  <script src="https://cdn.jsdelivr.net/npm/opentype.js@1.3.4/dist/opentype.min.js"></script>
+  <script src="varnamala_data.js?v=2"></script>
+  <script src="preview_app.js?v=2"></script>
+</body>
+</html>
