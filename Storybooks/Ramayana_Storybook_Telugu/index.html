@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="తెలుగు రామాయణం — బాలకాండ | పిల్లల కథల పుస్తకం — 42 అందమైన పేజీలతో, చదవడం వినిపించే సౌకర్యంతో, అద్భుతమైన బొమ్మలతో సంపూర్ణ ఇంటరాక్టివ్ కథా పుస్తకం.">
+  <title>రామాయణం — బాలకాండ | పిల్లల కథల పుస్తకం</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+</head>
+<body>
+
+  <!-- Loading Overlay -->
+  <div id="loading-overlay">
+    <div class="spinner"></div>
+    <div class="loading-text">పుస్తకం తెరుస్తోంది…</div>
+  </div>
+
+  <!-- Top Bar -->
+  <header id="top-bar">
+    <div class="brand">📖 రామాయణం — బాలకాండ</div>
+    <div class="controls">
+      <div class="speaking-indicator" id="speaking-indicator">
+        <div class="wave"><span></span><span></span><span></span><span></span></div>
+        చదువుతోంది…
+      </div>
+      <span id="page-counter">1 / 42</span>
+      <button class="ctrl-btn" id="toc-toggle-btn" title="విషయ సూచిక">
+        <span class="icon">☰</span> విషయాలు
+      </button>
+      <button class="ctrl-btn" id="read-btn" title="వినిపించు">
+        <span class="icon">🔊</span> చదువు
+      </button>
+      <button class="ctrl-btn" id="autoplay-btn" title="ఆటో-ప్లే">
+        <span class="icon">▶</span> ఆటో
+      </button>
+    </div>
+  </header>
+
+  <!-- Main App -->
+  <div id="app">
+
+    <!-- Sidebar -->
+    <nav id="sidebar">
+      <h2>✦ అధ్యాయాలు</h2>
+      <ul class="toc-list" id="toc-list">
+        <!-- Populated by JS -->
+      </ul>
+    </nav>
+
+    <!-- Book -->
+    <div id="book-container">
+      <button class="nav-arrow" id="prev-btn" title="మునుపటి పేజీ">◂</button>
+
+      <div id="book">
+        <!-- Left Page: Illustration -->
+        <div id="page-left">
+          <div id="page-image-wrap">
+            <img id="page-image" src="" alt="కథా చిత్రం">
+          </div>
+        </div>
+
+        <!-- Right Page: Text -->
+        <div id="page-right" data-page="1">
+          <h1 id="chapter-title"></h1>
+          <hr class="divider">
+          <p id="story-text"></p>
+          <div id="moral-box"></div>
+        </div>
+      </div>
+
+      <button class="nav-arrow" id="next-btn" title="తదుపరి పేజీ">▸</button>
+    </div>
+  </div>
+
+  <!-- Progress Bar -->
+  <div id="progress-bar-wrap">
+    <div id="progress-bar"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

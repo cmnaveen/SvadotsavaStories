@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="An interactive, illustrated children's storybook of the Ramayana Bala Kanda — 42 magical pages with read-aloud narration, beautiful images, and page-turning animations.">
+  <title>The Ramayana — Bala Kanda | Children's Storybook</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+</head>
+<body>
+
+  <!-- Loading Overlay -->
+  <div id="loading-overlay">
+    <div class="spinner"></div>
+    <div class="loading-text">Opening the Book…</div>
+  </div>
+
+  <!-- Top Bar -->
+  <header id="top-bar">
+    <div class="brand">📖 The Ramayana — Bala Kanda</div>
+    <div class="controls">
+      <div class="speaking-indicator" id="speaking-indicator">
+        <div class="wave"><span></span><span></span><span></span><span></span></div>
+        Reading…
+      </div>
+      <span id="page-counter">1 / 42</span>
+      <button class="ctrl-btn" id="toc-toggle-btn" title="Table of Contents">
+        <span class="icon">☰</span> Contents
+      </button>
+      <button class="ctrl-btn" id="read-btn" title="Read Aloud">
+        <span class="icon">🔊</span> Read
+      </button>
+      <button class="ctrl-btn" id="autoplay-btn" title="Auto-Play Pages">
+        <span class="icon">▶</span> Auto
+      </button>
+    </div>
+  </header>
+
+  <!-- Main App -->
+  <div id="app">
+
+    <!-- Sidebar -->
+    <nav id="sidebar">
+      <h2>✦ Chapters</h2>
+      <ul class="toc-list" id="toc-list">
+        <!-- Populated by JS -->
+      </ul>
+    </nav>
+
+    <!-- Book -->
+    <div id="book-container">
+      <button class="nav-arrow" id="prev-btn" title="Previous Page">◂</button>
+
+      <div id="book">
+        <!-- Left Page: Illustration -->
+        <div id="page-left">
+          <div id="page-image-wrap">
+            <img id="page-image" src="" alt="Story illustration">
+          </div>
+        </div>
+
+        <!-- Right Page: Text -->
+        <div id="page-right" data-page="1">
+          <h1 id="chapter-title"></h1>
+          <hr class="divider">
+          <p id="story-text"></p>
+          <div id="moral-box"></div>
+        </div>
+      </div>
+
+      <button class="nav-arrow" id="next-btn" title="Next Page">▸</button>
+    </div>
+  </div>
+
+  <!-- Progress Bar -->
+  <div id="progress-bar-wrap">
+    <div id="progress-bar"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

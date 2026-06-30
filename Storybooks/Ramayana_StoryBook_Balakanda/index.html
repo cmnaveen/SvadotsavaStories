@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Ramayana of Valmiki — Bala Kanda: An interactive illustrated children's storybook in 42 pages with beautiful watercolour art. Experience the timeless tale of Prince Rama.">
+  <title>The Ramayana — Bala Kanda | A Children's Storybook</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Progress Bar -->
+  <div class="progress-bar" id="progress-bar"></div>
+
+  <!-- Toolbar (top right) -->
+  <div class="toolbar">
+    <button class="toolbar-btn" id="toc-btn" title="Table of Contents" aria-label="Table of Contents">☰</button>
+    <button class="toolbar-btn" id="tts-btn" title="Read Aloud" aria-label="Read Aloud">🔊</button>
+    <button class="toolbar-btn" id="fullscreen-btn" title="Fullscreen" aria-label="Fullscreen">⛶</button>
+  </div>
+
+  <!-- Table of Contents Overlay -->
+  <div class="toc-overlay" id="toc-overlay"></div>
+  <div class="toc-panel" id="toc-panel">
+    <button class="toc-close" id="toc-close-btn" aria-label="Close">✕</button>
+    <h2 class="toc-title">📜 Chapters</h2>
+    <div id="toc-list"></div>
+  </div>
+
+  <!-- ==================== BOOK ==================== -->
+  <div class="book-container">
+
+    <!-- ===== COVER PAGE ===== -->
+    <div class="page cover-page active" data-title="Cover">
+      <div class="page-inner">
+        <h1 class="cover-title">The Ramayana</h1>
+        <h2 class="cover-subtitle">Bala Kanda</h2>
+        <hr class="cover-divider">
+        <div class="cover-image-wrap">
+          <img src="images/cover.webp" alt="Rama and Sita in the golden city of Ayodhya — watercolour illustration">
+        </div>
+        <p class="cover-tagline">A magical storybook journey through the first book of the Ramayana — told for young readers in 42 beautifully illustrated pages.</p>
+        <button class="cover-start-btn" id="start-reading-btn">✦ Begin the Story ✦</button>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 1 ===== -->
+    <div class="page story-page" data-title="The Question of the Perfect Hero">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 1 of 42</div>
+          <h2 class="page-chapter-title">The Question of the Perfect Hero</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-01.webp" alt="Sage Valmiki and celestial Narada at dawn by the river">
+        </div>
+        <div class="page-story-text">
+          <p>Long ago, the gentle sage Valmiki wondered, "Who is the bravest, kindest, most truthful person in all the world?" The heavenly singer Narada smiled and said, "There is one such soul — a prince named Rama." And so a beautiful story began.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 2 ===== -->
+    <div class="page story-page" data-title="The Sorrowful Bird and the First Poem">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 2 of 42</div>
+          <h2 class="page-chapter-title">The Sorrowful Bird and the First Poem</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-02.webp" alt="Valmiki by the riverbank with cranes and Lord Brahma descending">
+        </div>
+        <div class="page-story-text">
+          <p>By the riverbank, Valmiki saw a hunter harm a little singing bird, and his heart filled with sorrow. His sadness flowed out as the very first poem ever sung! Then Lord Brahma appeared in a shower of light and blessed him: "Tell Rama's whole story in song, and the world will love it forever."</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 3 ===== -->
+    <div class="page story-page" data-title="The Golden City of Ayodhya">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 3 of 42</div>
+          <h2 class="page-chapter-title">The Golden City of Ayodhya</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-03.webp" alt="Panoramic view of golden Ayodhya with King Dasaratha on a balcony">
+        </div>
+        <div class="page-story-text">
+          <p>Far away stood Ayodhya, a city so beautiful it sparkled like a jewel. Its kind and mighty ruler, King Dasaratha, cared for every person as if they were his own family. Banners waved, bells rang, and everyone lived happily.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 4 ===== -->
+    <div class="page story-page" data-title="The King's Quiet Wish">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 4 of 42</div>
+          <h2 class="page-chapter-title">The King's Quiet Wish</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-04.webp" alt="King Dasaratha alone on his throne at dusk gazing at an empty cradle">
+        </div>
+        <div class="page-story-text">
+          <p>Though King Dasaratha had everything, his heart held one quiet sadness — he had no children to fill his palace with laughter. Each evening he gazed at the empty halls and softly wished for a son. A good king, he knew, must hope and be patient.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 5 ===== -->
+    <div class="page story-page" data-title="The Wise Sage Rishyasringa">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 5 of 42</div>
+          <h2 class="page-chapter-title">The Wise Sage Rishyasringa</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-05.webp" alt="Young sage Rishyasringa welcomed at the palace gates of Ayodhya">
+        </div>
+        <div class="page-story-text">
+          <p>The king's faithful minister Sumantra had an idea: "Invite the holy young sage Rishyasringa! Wherever he goes, blessings follow." So with great respect, the gentle sage was welcomed to Ayodhya to help the king's wish come true.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 6 ===== -->
+    <div class="page story-page" data-title="The Great Fire Sacrifice">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 6 of 42</div>
+          <h2 class="page-chapter-title">The Great Fire Sacrifice</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-06.webp" alt="Grand fire sacrifice ceremony on the riverbank at dawn">
+        </div>
+        <div class="page-story-text">
+          <p>A grand sacred ceremony began on the banks of the river. Priests chanted, sweet smoke curled into the sky, and golden flames danced in the holy fire. Everyone prayed with hopeful hearts for the king to be blessed with sons.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 7 ===== -->
+    <div class="page story-page" data-title="A Plea in the Heavens">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 7 of 42</div>
+          <h2 class="page-chapter-title">A Plea in the Heavens</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-07.webp" alt="Gods pleading before Lord Vishnu on Shesha in the celestial realm">
+        </div>
+        <div class="page-story-text">
+          <p>High in the heavens, the gods were worried about a cruel ten-headed demon-king named Ravana, who frightened everyone. Together they flew to Lord Vishnu and begged, "Only you can save the world from him!"</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 8 ===== -->
+    <div class="page story-page" data-title="Vishnu's Great Promise">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 8 of 42</div>
+          <h2 class="page-chapter-title">Vishnu's Great Promise</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-08.webp" alt="Lord Vishnu sending light toward Earth while gods rejoice">
+        </div>
+        <div class="page-story-text">
+          <p>Lord Vishnu smiled kindly and made a great promise: "I will be born on Earth as a human prince, and I will set everything right." The gods rejoiced, for they knew goodness would soon walk among people.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 9 ===== -->
+    <div class="page story-page" data-title="The Gift from the Sacred Fire">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 9 of 42</div>
+          <h2 class="page-chapter-title">The Gift from the Sacred Fire</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-09.webp" alt="Celestial being rising from flames holding a golden bowl of payasam">
+        </div>
+        <div class="page-story-text">
+          <p>As the ceremony reached its peak, a glowing divine being rose from the flames, holding a golden bowl of magical sweet pudding. "Share this with your queens," he said. The king's heart leapt with joy, for his wish was about to come true!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 10 ===== -->
+    <div class="page story-page" data-title="Four Princes Are Born">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 10 of 42</div>
+          <h2 class="page-chapter-title">Four Princes Are Born</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-10.webp" alt="Three queens cradling four glowing newborn princes in the palace nursery">
+        </div>
+        <div class="page-story-text">
+          <p>Soon the palace rang with happy cries — four baby princes were born! They were named Rama, Bharata, Lakshmana, and Shatrughna. All of Ayodhya celebrated, and the king's quiet sadness turned into the greatest joy.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 11 ===== -->
+    <div class="page story-page" data-title="Brave Princes and Hidden Helpers">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 11 of 42</div>
+          <h2 class="page-chapter-title">Brave Princes and Hidden Helpers</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-11.webp" alt="Young princes practicing archery and vanara children playing in forests">
+        </div>
+        <div class="page-story-text">
+          <p>The four brothers grew up strong, clever, and kind, learning archery, the scriptures, and how to care for others. Rama, the eldest, loved everyone the most. And far away in the forests, mighty monkey-heroes were quietly being born — secret friends Rama would need one day.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 12 ===== -->
+    <div class="page story-page" data-title="The Sage's Important Request">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 12 of 42</div>
+          <h2 class="page-chapter-title">The Sage's Important Request</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-12.webp" alt="Sage Vishwamitra striding into the throne room to request Rama">
+        </div>
+        <div class="page-story-text">
+          <p>One day the powerful sage Vishwamitra strode into the palace. "Demons are spoiling our holy prayers in the forest," he said. "Please send young Rama to protect us." Everyone was surprised — Rama was still so young!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 13 ===== -->
+    <div class="page story-page" data-title="A Father's Worry, A Wise Word">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 13 of 42</div>
+          <h2 class="page-chapter-title">A Father's Worry, A Wise Word</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-13.webp" alt="King Dasaratha saying farewell to Rama and Lakshmana at the palace gate">
+        </div>
+        <div class="page-story-text">
+          <p>The king's heart trembled to send his dear son away. But the royal teacher Vasishtha said gently, "Trust the sage. Rama is destined for greatness." So Rama and his loyal brother Lakshmana set out, bows in hand, ready and brave.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 14 ===== -->
+    <div class="page story-page" data-title="Secret Chants by the River">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 14 of 42</div>
+          <h2 class="page-chapter-title">Secret Chants by the River</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-14.webp" alt="Vishwamitra teaching sacred chants to the princes by the Sarayu river">
+        </div>
+        <div class="page-story-text">
+          <p>As they walked beside the shining river Sarayu, Vishwamitra taught the princes two magical chants called Bala and Atibala. These gifts kept them strong, never tired, and never afraid. The boys listened carefully, for learning is its own kind of power.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 15 ===== -->
+    <div class="page story-page" data-title="The Dark Forest of Taraka">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 15 of 42</div>
+          <h2 class="page-chapter-title">The Dark Forest of Taraka</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-15.webp" alt="Rama and Lakshmana at the edge of a gloomy tangled forest">
+        </div>
+        <div class="page-story-text">
+          <p>Soon they reached a gloomy, tangled forest where no birds sang. A fierce demoness named Taraka had frightened everyone away. "Be brave," said the sage. "This forest can be peaceful again."</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 16 ===== -->
+    <div class="page story-page" data-title="Rama Brings Back the Light">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 16 of 42</div>
+          <h2 class="page-chapter-title">Rama Brings Back the Light</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-16.webp" alt="Rama releasing a golden arrow as sunlight bursts through the dark forest">
+        </div>
+        <div class="page-story-text">
+          <p>Taraka rushed out with a terrible roar, but Rama stood calm and steady. With one swift, brave arrow, he freed the forest from her fear. At once, sunlight poured in, birds returned, and the trees seemed to smile again.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 17 ===== -->
+    <div class="page story-page" data-title="Gifts of the Shining Weapons">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 17 of 42</div>
+          <h2 class="page-chapter-title">Gifts of the Shining Weapons</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-17.webp" alt="Celestial weapons appearing as shining spirits before a kneeling Rama">
+        </div>
+        <div class="page-story-text">
+          <p>Pleased with Rama's courage, Vishwamitra gave him wondrous celestial weapons that glowed with divine light. They appeared as friendly shining beings, ready to help only when truly needed. Rama promised to use them wisely, never for showing off.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 18 ===== -->
+    <div class="page story-page" data-title="Guarding the Holy Prayers">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 18 of 42</div>
+          <h2 class="page-chapter-title">Guarding the Holy Prayers</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-18.webp" alt="Rama and Lakshmana guarding sages at the fire altar as demons swoop down">
+        </div>
+        <div class="page-story-text">
+          <p>At Vishwamitra's hermitage, the gentle sages began their sacred fire-prayer. Rama and Lakshmana stood guard for many days, watchful and brave. Suddenly the sky darkened — the demons Maricha and Subahu came swooping down to spoil everything!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 19 ===== -->
+    <div class="page story-page" data-title="The Sacrifice Is Saved">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 19 of 42</div>
+          <h2 class="page-chapter-title">The Sacrifice Is Saved</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-19.webp" alt="Rama shooting a brilliant arrow sending the demon Maricha tumbling away">
+        </div>
+        <div class="page-story-text">
+          <p>Quick as lightning, Rama fitted a special arrow to his bow. With one gentle, powerful shot he flung the demon Maricha far across the ocean, and stopped the others. The sacred fire blazed on, and the grateful sages blessed the brave young prince.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 20 ===== -->
+    <div class="page story-page" data-title="A Journey and a Wonderful Tale">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 20 of 42</div>
+          <h2 class="page-chapter-title">A Journey and a Wonderful Tale</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-20.webp" alt="Vishwamitra telling stories while walking along a scenic path with the princes">
+        </div>
+        <div class="page-story-text">
+          <p>Next, Vishwamitra led the princes toward the city of Mithila for a great celebration. As they walked, he told them a magical story: "Let me tell you how the holy river Ganga came down to Earth." The boys leaned in, eager to listen.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 21 ===== -->
+    <div class="page story-page" data-title="King Sagara and the Sacred Horse">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 21 of 42</div>
+          <h2 class="page-chapter-title">King Sagara and the Sacred Horse</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-21.webp" alt="King Sagara watching the sacred white horse vanish in sparkles">
+        </div>
+        <div class="page-story-text">
+          <p>"Long ago," said the sage, "the mighty King Sagara held a grand ceremony with a beautiful sacred horse. But sneaky trouble was near — the horse suddenly vanished without a trace!" The king's sixty thousand sons set off to search the whole world.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 22 ===== -->
+    <div class="page story-page" data-title="A Mistake and a Lesson">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 22 of 42</div>
+          <h2 class="page-chapter-title">A Mistake and a Lesson</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-22.webp" alt="Sage Kapila meditating underground beside the sacred horse">
+        </div>
+        <div class="page-story-text">
+          <p>Digging deep into the earth, the sons finally found the horse beside the silent, glowing sage Kapila. Without asking, they shouted at him angrily — and in a flash of heat, they were turned to ashes. It was a sad lesson: never be rude to the wise and the kind.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 23 ===== -->
+    <div class="page story-page" data-title="Bhagiratha's Mighty Effort">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 23 of 42</div>
+          <h2 class="page-chapter-title">Bhagiratha's Mighty Effort</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-23.webp" alt="Prince Bhagiratha standing in penance atop a snowy Himalayan peak">
+        </div>
+        <div class="page-story-text">
+          <p>Years later, the noble prince Bhagiratha wished to free his ancestors' souls. He prayed with all his heart for the holy river Ganga to flow down from the heavens. He stood still for a very long time, showing that patience and devotion can move even the gods.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 24 ===== -->
+    <div class="page story-page" data-title="The River Falls from Heaven">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 24 of 42</div>
+          <h2 class="page-chapter-title">The River Falls from Heaven</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-24.webp" alt="River Ganga cascading from heaven, caught in Lord Shiva's hair">
+        </div>
+        <div class="page-story-text">
+          <p>At last the mighty Ganga came rushing down from the sky! But she was so powerful she might have flooded the whole Earth — so kind Lord Shiva caught her gently in his tangled hair and let her flow softly. Following Bhagiratha, the holy river freed his ancestors and blessed the land.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 25 ===== -->
+    <div class="page story-page" data-title="The Churning of the Ocean">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 25 of 42</div>
+          <h2 class="page-chapter-title">The Churning of the Ocean</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-25.webp" alt="Gods and demons churning the milky ocean with Mount Mandara">
+        </div>
+        <div class="page-story-text">
+          <p>Vishwamitra shared another wonder: long ago, the gods and demons churned the great milky ocean together, using a mountain as a stick and a giant serpent as a rope. Out came amazing treasures and the precious nectar of life. It showed that even rivals can create something good by working together.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 26 ===== -->
+    <div class="page story-page" data-title="The Hermitage and the Quiet Stone">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 26 of 42</div>
+          <h2 class="page-chapter-title">The Hermitage and the Quiet Stone</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-26.webp" alt="A stone shaped like a woman resting among flowers in a quiet hermitage">
+        </div>
+        <div class="page-story-text">
+          <p>Their path led to a peaceful, empty hermitage where a strange grey stone lay among the flowers. "This was once a noble lady named Ahalya," said the sage softly. "Long ago she was turned to stone, waiting for the touch of someone truly good."</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 27 ===== -->
+    <div class="page story-page" data-title="Ahalya Is Freed">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 27 of 42</div>
+          <h2 class="page-chapter-title">Ahalya Is Freed</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-27.webp" alt="Ahalya rising from the stone in golden light as Rama watches">
+        </div>
+        <div class="page-story-text">
+          <p>As Rama's gentle foot touched the stone, a warm light spread through it. The stone softened, and kind Ahalya stood up alive once more, smiling with happy tears! Rama's goodness and forgiveness had set her free.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 28 ===== -->
+    <div class="page story-page" data-title="Welcome to Mithila">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 28 of 42</div>
+          <h2 class="page-chapter-title">Welcome to Mithila</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-28.webp" alt="King Janaka welcoming the travellers at the festive gates of Mithila">
+        </div>
+        <div class="page-story-text">
+          <p>At last they reached the festive city of Mithila, ruled by the wise and gentle King Janaka. He welcomed Vishwamitra and the two princes with great warmth and curiosity. "Who are these shining young heroes?" he wondered with a smile.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 29 ===== -->
+    <div class="page story-page" data-title="The Earth-Child and the Mighty Bow">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 29 of 42</div>
+          <h2 class="page-chapter-title">The Earth-Child and the Mighty Bow</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-29.webp" alt="King Janaka showing the great bow of Shiva in a grand hall with Sita nearby">
+        </div>
+        <div class="page-story-text">
+          <p>King Janaka told a wonderful story: "My daughter Sita was found in a furrow of the earth, a gift from the land itself." Then he showed them a giant, ancient bow of Lord Shiva, so heavy that no king alive could even lift it. "Whoever bends this bow," he said, "shall marry my brave Sita."</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 30 ===== -->
+    <div class="page story-page" data-title="Rama Lifts the Unliftable Bow">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 30 of 42</div>
+          <h2 class="page-chapter-title">Rama Lifts the Unliftable Bow</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-30.webp" alt="Rama bending the great bow of Shiva as it cracks with brilliant light">
+        </div>
+        <div class="page-story-text">
+          <p>Calmly, Rama walked up to the enormous bow. To everyone's amazement, he lifted it as easily as a flower — and as he bent it to string it, the great bow snapped with a sound like thunder! The whole hall gasped, then burst into cheers.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 31 ===== -->
+    <div class="page story-page" data-title="Sita Chooses Rama">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 31 of 42</div>
+          <h2 class="page-chapter-title">Sita Chooses Rama</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-31.webp" alt="Sita placing a flower garland around Rama's neck">
+        </div>
+        <div class="page-story-text">
+          <p>Gentle Sita stepped forward and placed a beautiful flower garland around Rama's neck, choosing him as her husband. The people of Mithila cheered with delight, and swift messengers raced to Ayodhya to share the wonderful news. Love and goodness had found each other.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 32 ===== -->
+    <div class="page story-page" data-title="The King Journeys to Mithila">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 32 of 42</div>
+          <h2 class="page-chapter-title">The King Journeys to Mithila</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-32.webp" alt="A magnificent royal procession with elephants heading toward Mithila">
+        </div>
+        <div class="page-story-text">
+          <p>When the happy news reached Ayodhya, King Dasaratha was overjoyed! He set out for Mithila with his other sons, his ministers, and a grand royal parade. The roads filled with elephants, music, and the sound of celebration.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 33 ===== -->
+    <div class="page story-page" data-title="Four Brothers, Four Brides">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 33 of 42</div>
+          <h2 class="page-chapter-title">Four Brothers, Four Brides</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-33.webp" alt="The two kings clasping hands with four princes and four princesses">
+        </div>
+        <div class="page-story-text">
+          <p>King Janaka happily shared that his family had four wonderful princesses. So it was joyfully arranged: all four brothers would be married together! Rama would wed Sita, and his three brothers would wed three lovely princesses too.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 34 ===== -->
+    <div class="page story-page" data-title="The Grand Wedding">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 34 of 42</div>
+          <h2 class="page-chapter-title">The Grand Wedding</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-34.webp" alt="Dazzling wedding hall at night with four couples in bridal attire">
+        </div>
+        <div class="page-story-text">
+          <p>Mithila sparkled like a dream for the grandest wedding ever seen! Lamps glowed, drums played, and flower petals floated in the air. Four happy couples gathered, and everyone's heart was full of love and blessings.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 35 ===== -->
+    <div class="page story-page" data-title="Sacred Vows by the Fire">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 35 of 42</div>
+          <h2 class="page-chapter-title">Sacred Vows by the Fire</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-35.webp" alt="Rama and Sita walking around the sacred fire taking wedding vows">
+        </div>
+        <div class="page-story-text">
+          <p>Holding hands, each couple walked around the sacred fire and made gentle promises to love and care for one another always. Sages chanted blessings, and the gods showered flowers from above. It was a moment of pure happiness and trust.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 36 ===== -->
+    <div class="page story-page" data-title="A Storm on the Road Home">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 36 of 42</div>
+          <h2 class="page-chapter-title">A Storm on the Road Home</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-36.webp" alt="Parasurama blocking the road under a storm-darkened sky">
+        </div>
+        <div class="page-story-text">
+          <p>As the joyful families travelled back to Ayodhya, the sky suddenly grew dark and the wind howled. Out stepped Parasurama, a fierce warrior-sage with a great axe, his eyes blazing. Everyone froze — but Rama stayed perfectly calm.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 37 ===== -->
+    <div class="page story-page" data-title="The Warrior's Challenge">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 37 of 42</div>
+          <h2 class="page-chapter-title">The Warrior's Challenge</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-37.webp" alt="Parasurama offering his divine bow to Rama in a tense standoff">
+        </div>
+        <div class="page-story-text">
+          <p>"So you broke Lord Shiva's bow?" thundered Parasurama. "Let us see if you can string this mighty bow of mine!" He believed no one could match his strength. But Rama only smiled gently and accepted the challenge.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 38 ===== -->
+    <div class="page story-page" data-title="Calm Strength Wins">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 38 of 42</div>
+          <h2 class="page-chapter-title">Calm Strength Wins</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-38.webp" alt="Rama bending Parasurama's bow with a golden halo revealing his divinity">
+        </div>
+        <div class="page-story-text">
+          <p>With astonishing ease, Rama lifted the great bow and bent it, ready in a heartbeat. In that moment, Parasurama understood that Rama was truly divine, and all his pride melted away. True strength, he learned, is calm and humble — never boastful.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 39 ===== -->
+    <div class="page story-page" data-title="Peace at Last">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 39 of 42</div>
+          <h2 class="page-chapter-title">Peace at Last</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-39.webp" alt="Parasurama bowing to Rama before walking toward distant mountains">
+        </div>
+        <div class="page-story-text">
+          <p>Parasurama bowed respectfully to Rama and, with a peaceful heart, walked away to the quiet mountains to pray. The storm vanished and the sky turned bright and blue again. Goodness had won, gently and kindly, without any harm.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 40 ===== -->
+    <div class="page story-page" data-title="The Joyful Homecoming">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 40 of 42</div>
+          <h2 class="page-chapter-title">The Joyful Homecoming</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-40.webp" alt="Grand jubilant homecoming to Ayodhya at sunset with flower-strewn streets">
+        </div>
+        <div class="page-story-text">
+          <p>At last the family reached Ayodhya, and the whole city burst into celebration! Streets were sprinkled with water and scattered with flowers, lamps glowed in every window, and people cheered with all their might. Their beloved princes had come home with their brides.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 41 ===== -->
+    <div class="page story-page" data-title="A Warm Welcome for the Brides">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 41 of 42</div>
+          <h2 class="page-chapter-title">A Warm Welcome for the Brides</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-41.webp" alt="Queen mothers welcoming Sita and the princesses with aarti lamps">
+        </div>
+        <div class="page-story-text">
+          <p>The three loving queen-mothers welcomed Sita and the other princesses into the palace with open arms and happy tears. They performed gentle ceremonies, offered sweets, and blessed each new daughter. The royal family was now bigger, warmer, and more joyful than ever.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== PAGE 42 ===== -->
+    <div class="page story-page" data-title="A Happy Beginning">
+      <div class="page-inner">
+        <div class="page-header">
+          <div class="page-number">Page 42 of 42</div>
+          <h2 class="page-chapter-title">A Happy Beginning</h2>
+        </div>
+        <div class="page-illustration">
+          <img src="images/page-42.webp" alt="Rama and Sita on a palace balcony gazing at a golden sunset horizon">
+        </div>
+        <div class="page-story-text">
+          <p>And so Rama and Sita began their happy life together, loved by everyone for their kindness, courage, and truth. This was only the very beginning of their great adventure. For wherever there is bravery, devotion, and a good heart, a wonderful story is always waiting to unfold.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== END PAGE ===== -->
+    <div class="page end-page" data-title="The End">
+      <div class="page-inner">
+        <div class="end-ornament">❈ ✦ ❈</div>
+        <h2 class="end-title">The End of Bala Kanda</h2>
+        <hr class="cover-divider">
+        <p class="end-text">This completes Book One of the Ramayana — the Bala Kanda — woven with gentle lessons of patience, courage, compassion, humility, devotion, and keeping one's word.<br><br>The journey has only just begun…</p>
+        <div class="end-ornament">🪷</div>
+        <button class="restart-btn" id="restart-btn">↻ Read Again</button>
+      </div>
+    </div>
+
+  </div><!-- /book-container -->
+
+  <!-- Navigation Controls -->
+  <div class="nav-controls">
+    <button class="nav-btn" id="prev-btn" aria-label="Previous Page">◀</button>
+    <span class="nav-page-indicator" id="page-indicator">Cover</span>
+    <button class="nav-btn" id="next-btn" aria-label="Next Page">▶</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
