@@ -19,3 +19,12 @@ Thumbs.db
 
 # Claude Code local tooling/workspace
 .claude/
+
+# Ignore all images as requested
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.tiff
