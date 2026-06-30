@@ -16,8 +16,8 @@
 ## I. CORE HEROES AND HEROINE
 
 ### 1. RAMA (Prince & King of Ayodhya)
-* **Skin Tone:** Luminous, smooth blue-teal skin, radiating a gentle inner glow.
-* **Age & Body Type:** Late twenties; tall, broad-shouldered, highly muscular and heroic warrior build (*simha-vyaghra-sadrisha*), with powerful arms.
+* **Skin Tone:** Luminous dark-shyamam complexion resembling a blue lotus petal (*neelotpala-shyamam*) or a fresh rain-bearing cloud (rendered visually as blue-teal skin for animation consistency).
+* **Age & Body Type:** Late twenties; tall, broad-shouldered, highly muscular and heroic warrior build (*simha-vyaghra-sadrisha*) with long arms reaching down to his knees (*ajanabahu*), a broad chest, and a neck like a conch shell (*kambu-griva*).
 * **Facial Features & Expression:** Large, warm, expressive dark eyes with long lashes; high noble forehead; calm, brave, serene half-smile showing unshakeable inner peace.
 * **Hairstyle:** Black hair tied in an ascetic topknot (*jata*) for forest scenes, or styled under a crown for palace scenes.
 * **Costume & Ornaments:** 
@@ -26,10 +26,10 @@
 * **Weapons/Accessories:** A large golden composite bow (*vaishnava-dhanus* or *kodanda*), and a leather quiver filled with arrows strapped across the back.
 * **Posture:** Standing tall and noble, radiating protective strength and serene command.
 * **AI Prompt:** 
-  > `[RAMA: luminous blue-teal-skinned strong heroic warrior-prince; large warm expressive dark eyes; noble forehead; tall broad-shouldered highly muscular build; simple ochre bark-cloth uttariya; plain white dhoti; topknot; yajnopavita; barefoot; holding a massive golden bow; quiver on back; expression of serene unshakeable inner peace and heroic strength]`
+  > `[RAMA: luminous blue-teal-skinned heroic warrior-prince; ajanabahu long-armed and broad-chested muscular build; kambu-griva conch-neck; simple ochre bark-cloth uttariya; plain white dhoti; topknot; yajnopavita; barefoot; holding a massive golden bow; quiver on back; expression of serene unshakeable inner peace and heroic strength]`
 
 ### 2. LAKSHMANA (Rama's Devoted Brother)
-* **Skin Tone:** Warm bronze-tawny skin.
+* **Skin Tone:** Luminous fair golden skin, resembling the warm gold of a campaka flower (*campaka-hema-varna*).
 * **Age & Body Type:** Athletic, strong, broad-shouldered young warrior, slightly taller than Rama.
 * **Facial Features & Expression:** Sharp, always-alert dark eyes; protective, vigilant, and fiercely loyal expression.
 * **Hairstyle:** Black hair tied in a high forest topknot (*jata*).
@@ -39,10 +39,10 @@
 * **Weapons/Accessories:** A tall wooden bow in hand, and a large quiver strapped to his back.
 * **Posture:** Standing alert, slightly behind and to the right of Rama, ever-watchful.
 * **AI Prompt:**
-  > `[LAKSHMANA: warm bronze-tawny-skinned powerful young warrior; sharp always-alert dark eyes; muscular protective build; simple ochre bark-cloth upper wrap; plain dhoti for forest travel; yajnopavita; black hair in a topknot; quiver always strapped to his back; bow always in hand; expression of fierce devoted protective vigilance]`
+  > `[LAKSHMANA: fair golden-skinned powerful young warrior; sharp always-alert dark eyes; muscular protective build; simple ochre bark-cloth upper wrap; plain dhoti for forest travel; yajnopavita; black hair in a topknot; quiver always strapped to his back; bow always in hand; expression of fierce devoted protective vigilance]`
 
 ### 3. SITA (Princess of Mithila & Queen of Ayodhya)
-* **Skin Tone:** Luminous, fair golden-brown complexion.
+* **Skin Tone:** Luminous golden complexion like molten gold (*tapta-kanchana-varna*), radiant and bright.
 * **Age & Body Type:** Graceful, tall, slender, and elegant build.
 * **Facial Features & Expression:** Large, gentle, luminous dark eyes; serene, dignified, and regal expression.
 * **Hairstyle:** Long, glossy black hair, adorned with white jasmine flowers (*mallika*) in the palace, or a simple braid with small forest wildflowers in exile.
@@ -51,10 +51,10 @@
   * *Forest Form:* Simple saffron-orange bark-cloth wrap over her sari, minimal jewelry (only gold wedding bangles remaining), barefoot.
 * **Posture:** Standing gracefully beside Rama, or sitting in calm dignity beneath the Ashoka tree in Lanka.
 * **AI Prompt:**
-  > `[SITA: luminous fair golden-skinned princess; long glossy black hair in a simple forest braid adorned with small wildflowers; large gentle luminous dark eyes; graceful slender build; wearing a simple deep saffron-ochre silk sari; gold maang tikka; gold bangles; serene composed dignified expression]`
+  > `[SITA: luminous molten-gold-skinned princess; long glossy black hair in a simple forest braid adorned with small wildflowers; large gentle luminous dark eyes; graceful slender build; wearing a simple deep saffron-ochre silk sari; gold maang tikka; gold bangles; serene composed dignified expression]`
 
 ### 4. BHARATA (Rama's Noble Brother)
-* **Skin Tone:** Warm golden-brown skin, closely resembling Rama in features and build.
+* **Skin Tone:** Dark-shyamam complexion like Rama, closely resembling him in features and build.
 * **Age & Body Type:** Earnest, muscular, and noble young prince.
 * **Facial Features & Expression:** Deep-set dark eyes holding a profound, earnest expression of grief and selfless devotion.
 * **Hairstyle:** Black hair styled under a crown, or matted (*jata*) in solidarity with Rama's exile.
@@ -63,15 +63,15 @@
   * *Forest Quest:* Simple bark-cloth *dhoti*, bare chest, matted hair, no ornaments.
 * **Accessories:** Carries Rama’s golden sandals (*padukas*) reverently on his head in key scenes.
 * **AI Prompt:**
-  > `[BHARATA: warm golden-brown-skinned prince; gentle earnest face with deep-set dark eyes; simple bark-cloth dhoti and upper wrap; matted hair; carrying golden sandals on his head; expression of deep devotion and sorrow]`
+  > `[BHARATA: dark-shyamam-skinned prince; gentle earnest face with deep-set dark eyes; simple bark-cloth dhoti and upper wrap; matted hair; carrying golden sandals on his head; expression of deep devotion and sorrow]`
 
 ### 5. SHATRUGHNA (Rama's Youngest Brother)
-* **Skin Tone:** Fair-bronze skin, identical in build and age to Lakshmana.
+* **Skin Tone:** Fair golden complexion like Lakshmana, identical in build and age.
 * **Facial Features & Expression:** Determined, courageous, and loyal eyes.
 * **Costume & Ornaments:** Royal green silk *dhoti* with gold border, simple golden *mukuta* crown, gold armlets, and *yajnopavita*.
 * **Weapons/Accessories:** A shining steel sword (*khadga*) and a golden bow.
 * **AI Prompt:**
-  > `[SHATRUGHNA: fair-bronze-skinned young prince; determined courageous eyes; royal green silk dhoti; simple golden mukuta crown; gold armlets; holding a shining steel sword; heroic posture]`
+  > `[SHATRUGHNA: fair golden-complexioned young prince; determined courageous eyes; royal green silk dhoti; simple golden mukuta crown; gold armlets; holding a shining steel sword; heroic posture]`
 
 ---
 
@@ -163,13 +163,13 @@
 
 ### 18. HANUMAN (The Divine Monkey-Warrior)
 * **Species:** Vanara (divine monkey-human hybrid).
-* **Fur & Complexion:** Warm orange-brown fur, light-colored skin on face and hands.
+* **Fur & Complexion:** Golden fur like a mountain of molten gold (*tapta-hema-sannibha*) with a copper-red face and palm-soles (*tamra-mukha*).
 * **Age & Body Type:** Muscular, broad-chested, powerful build.
 * **Facial Features & Expression:** Large, luminous, intelligent eyes; noble jawline; expressions of deep humility and devotion.
 * **Costume & Ornaments:** Simple orange *dhoti*, gold armlets, a simple golden crown, and the *yajnopavita* (sacred thread) across his chest.
 * **Posture:** Kneeling with hands clasped in front of Rama, or flying in colossal form.
 * **AI Prompt:**
-  > `[HANUMAN: orange-brown vanara; muscular athletic build; golden armlets; gold crown; orange dhoti; yajnopavita; large luminous eyes; expression of deep devotion and strength]`
+  > `[HANUMAN: golden-furred vanara with copper-red face; muscular athletic build; golden armlets; gold crown; orange dhoti; yajnopavita; large luminous eyes; expression of deep devotion and strength]`
 
 ### 19. SUGRIVA (The Vanara King)
 * **Species/Fur:** Golden-tawny fur.
@@ -211,13 +211,13 @@
 ## V. DEMONS (RAKSHASAS)
 
 ### 24. RAVANA (The Ten-Headed Demon King)
-* **Skin Tone & Complexion:** Dark reddish-brown complexion, radiating an aura of dark power.
+* **Skin Tone & Complexion:** Dark charcoal-black skin like a mountain of black collyrium (*anjana-giri-sannibha*), radiating an aura of dark power.
 * **Age & Body Type:** Colossal, muscular, and regal build; ten heads (one dominant central head, others fanned symmetrically behind) and twenty powerful arms.
 * **Facial Features & Expression:** Blazing red eyes, sharp fangs protruding slightly; proud, arrogant, and sovereign expression.
 * **Costume & Ornaments:** Ten golden crowns (*mukutas*), rich crimson-and-gold royal garments, golden breastplate, gold armlets, and ruby necklaces.
 * **Weapons/Accessories:** A massive gold-hilted sword (*chandrahasa*) or a heavy iron mace.
 * **AI Prompt:**
-  > `[RAVANA: ten-headed demon king; twenty arms; dark reddish-brown skin; ten golden crowns; blazing red eyes; crimson-and-gold royal robes; golden chest armor; holding a gold-hilted sword; imposing sovereign pose]`
+  > `[RAVANA: ten-headed demon king; twenty arms; dark charcoal-black skin; ten golden crowns; blazing red eyes; crimson-and-gold royal robes; golden chest armor; holding a gold-hilted sword; imposing sovereign pose]`
 
 ### 25. INDRAJIT (Ravana's Eldest Son)
 * **Skin Tone:** Dark complexion.
@@ -240,11 +240,9 @@
   > `[VIBHISHANA: dark-skinned rakshasa prince; noble serene expression; no fangs; silk dhoti; golden crown; hands folded in reverence; clean light background]`
 
 ### 28. SURPANAKHA (Ravana's Sister)
-* **Visual Forms:**
-  * *Alluring Disguise:* Fair complexion, bright challenging eyes, colorful silk garments, excessive jewelry, but with an uncanny posture.
-  * *True Rakshasi Form:* Dark mottled reddish-brown skin, wild tangled black hair, glowing red eyes, long iron-hard claws, tattered dark garments.
-* **AI Prompt (True Form):**
-  > `[SURPANAKHA-T: massive female rakshasi; dark mottled reddish-brown skin; wild tangled black hair; large glowing red eyes; long claws; tattered dark garments; face twisted with rage]`
+* **Visual Form (Strictly Valmiki-Authentic):** Ugly, pot-bellied female rakshasi (*śūrpaṇakhā*); copper-red coarse hair (*vakra-keshi*); red-brown copper eyes (*kashaya-pingala-netra*); harsh grating voice; dark mottled reddish-brown skin; long claws. *Note: In Valmiki Ramayana, Surpanakha does not transform into a beautiful woman; she remains in her native ugly demon form throughout her proposal to Rama.*
+* **AI Prompt:**
+  > `[SURPANAKHA: ugly pot-bellied female rakshasi; dark mottled reddish-brown skin; copper-red coarse hair; red-brown copper eyes; long claws; tattered dark garments; face twisted with rage and jealousy]`
 
 ### 29. TATAKA (The Forest Demoness)
 * **Physical Appearance:** Enormous, shriveled, and terrifying; dark-mottled skin; wild grey hair like dead branches; sharp talons.
@@ -296,9 +294,9 @@
   > `[VISHNU: four-armed lord; dark blue skin; yellow silk robes; golden crown; holding conch and discus; riding the giant golden-winged Garuda; cosmic background]`
 
 ### 37. LORD SHIVA (The Destroyer)
-* **Physical Appearance:** Ash-smeared fair skin; matted hair with a crescent moon; third eye on forehead; leopard-skin wrap; holding a trident (*trishula*).
+* **Physical Appearance:** Luminous fair skin smeared with holy ash; three eyes; matted white hair (*jata-dhara*); holding the pinaka bow and trident (*trishula*). *Note: The crescent moon and leopard skin are later Puranic additions and are omitted for Valmiki authenticity.*
 * **AI Prompt:**
-  > `[SHIVA: lord of Kailasa; ash-smeared skin; matted jata hair with crescent moon; third eye; leopard skin; holding a trident; snow-capped mountain background]`
+  > `[SHIVA: lord of Kailasa; fair ash-smeared skin; three eyes; matted white jata hair; holding a glowing trident; snow-capped mountain background]`
 
 ### 38. LORD INDRA (King of the Gods)
 * **Physical Appearance:** Golden skin, riding the white four-tusked elephant Airavata, holding a crackling thunderbolt (*vajra*).
