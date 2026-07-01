@@ -16,7 +16,45 @@
   <div class="toolbar">
     <button class="toolbar-btn" id="toc-btn" title="Table of Contents" aria-label="Table of Contents">☰</button>
     <button class="toolbar-btn" id="tts-btn" title="Read Aloud" aria-label="Read Aloud">🔊</button>
+    <button class="toolbar-btn" id="audio-settings-btn" title="Audio Settings" aria-label="Audio Settings">⚙</button>
     <button class="toolbar-btn" id="fullscreen-btn" title="Fullscreen" aria-label="Fullscreen">⛶</button>
+  </div>
+
+  <!-- Audio Settings Panel -->
+  <div class="audio-settings-panel" id="audio-settings-panel">
+    <h3>🔊 Audio Settings</h3>
+    <div class="setting-row">
+      <label for="tts-provider">Voice Provider:</label>
+      <select id="tts-provider">
+        <option value="browser">Browser Default</option>
+        <option value="sarvam">Sarvam AI (Indian English)</option>
+      </select>
+    </div>
+    <div id="sarvam-settings-group" style="display: none;">
+      <div class="setting-row">
+        <label for="sarvam-api-key">API Key:</label>
+        <input type="password" id="sarvam-api-key" placeholder="Paste Sarvam API Key">
+      </div>
+      <div class="setting-row">
+        <label for="sarvam-speaker">Speaker Voice:</label>
+        <select id="sarvam-speaker">
+          <option value="meera" selected>Meera (Female - Storyteller)</option>
+          <option value="shubh">Shubh (Male - Friendly Conversational)</option>
+          <option value="arjun">Arjun (Male - Narrator)</option>
+          <option value="ishita">Ishita (Female - Dynamic)</option>
+          <option value="anushka">Anushka (Female - Conversational)</option>
+          <option value="aditya">Aditya (Male - Conversational)</option>
+        </select>
+      </div>
+    </div>
+    <div class="setting-row">
+      <label for="tts-rate">Speed:</label>
+      <input type="range" id="tts-rate" min="0.5" max="1.5" step="0.1" value="0.9">
+    </div>
+    <button class="apply-settings-btn" id="apply-settings-btn">Apply</button>
+    <div id="active-voice-status" style="margin-top: 12px; font-size: 0.8rem; color: var(--text-light); text-align: center; font-style: italic;">
+      Active Voice: Browser Fallback
+    </div>
   </div>
 
   <!-- Table of Contents Overlay -->
@@ -55,7 +93,7 @@
           <img src="images/page-01.webp" alt="Sage Valmiki and celestial Narada at dawn by the river">
         </div>
         <div class="page-story-text">
-          <p>Long ago, the gentle sage Valmiki wondered, "Who is the bravest, kindest, most truthful person in all the world?" The heavenly singer Narada smiled and said, "There is one such soul — a prince named Rama." And so a beautiful story began.</p>
+          <p>Long ago, a gentle sage named Valmiki sat beside a quiet river, turning one question over and over in his mind. In all the wide world, he wondered, who is the bravest, the kindest, and the most truthful person alive? Just then the wandering singer Narada drifted down from the sky, smiled, and said, "Let me tell you about Rama, the noble prince of Ayodhya." As Valmiki listened, his heart grew so full that he longed to know more.</p>
         </div>
       </div>
     </div>
@@ -71,7 +109,7 @@
           <img src="images/page-02.webp" alt="Valmiki by the riverbank with cranes and Lord Brahma descending">
         </div>
         <div class="page-story-text">
-          <p>By the riverbank, Valmiki saw a hunter harm a little singing bird, and his heart filled with sorrow. His sadness flowed out as the very first poem ever sung! Then Lord Brahma appeared in a shower of light and blessed him: "Tell Rama's whole story in song, and the world will love it forever."</p>
+          <p>The very next morning, as he walked beside the water, Valmiki saw a cruel hunter strike down one of a pair of singing birds, and the other bird wept with grief. Such deep sorrow welled up in the sage that it flowed from his lips as a verse, the very first poem the world had ever heard. Then, in a shower of golden light, Lord Brahma himself appeared and said, "Sing the whole story of Rama in just this way." And so the great tale began.</p>
         </div>
       </div>
     </div>
@@ -87,7 +125,7 @@
           <img src="images/page-03.webp" alt="Panoramic view of golden Ayodhya with King Dasaratha on a balcony">
         </div>
         <div class="page-story-text">
-          <p>Far away stood Ayodhya, a city so beautiful it sparkled like a jewel. Its kind and mighty ruler, King Dasaratha, cared for every person as if they were his own family. Banners waved, bells rang, and everyone lived happily.</p>
+          <p>Where did Rama's story begin? It began in a shining city called Ayodhya, golden and grand, ruled by the wise old King Dasaratha. The streets rang with music and laughter, and no one ever went hungry. Yet behind the tall palace walls, the king carried a quiet sorrow that no one could see.</p>
         </div>
       </div>
     </div>
@@ -103,7 +141,7 @@
           <img src="images/page-04.webp" alt="King Dasaratha alone on his throne at dusk gazing at an empty cradle">
         </div>
         <div class="page-story-text">
-          <p>Though King Dasaratha had everything, his heart held one quiet sadness — he had no children to fill his palace with laughter. Each evening he gazed at the empty halls and softly wished for a son. A good king, he knew, must hope and be patient.</p>
+          <p>King Dasaratha had everything a king could wish for, except a child to call his own. "If only my palace echoed with little footsteps," he would often sigh. So his trusted minister Sumantra came to him with an idea. They would invite the holy young sage Rishyasringa to perform a sacred fire-ceremony, and perhaps the heavens would answer at last.</p>
         </div>
       </div>
     </div>
@@ -119,7 +157,7 @@
           <img src="images/page-05.webp" alt="Young sage Rishyasringa welcomed at the palace gates of Ayodhya">
         </div>
         <div class="page-story-text">
-          <p>The king's faithful minister Sumantra had an idea: "Invite the holy young sage Rishyasringa! Wherever he goes, blessings follow." So with great respect, the gentle sage was welcomed to Ayodhya to help the king's wish come true.</p>
+          <p>And so, with drums and lamps and showers of flower petals, the gentle sage Rishyasringa was welcomed into Ayodhya, and he brought hope with him like sunshine after rain. On the banks of the river Sarayu, he helped the king begin a great and holy fire-sacrifice.</p>
         </div>
       </div>
     </div>
@@ -135,7 +173,7 @@
           <img src="images/page-06.webp" alt="Grand fire sacrifice ceremony on the riverbank at dawn">
         </div>
         <div class="page-story-text">
-          <p>A grand sacred ceremony began on the banks of the river. Priests chanted, sweet smoke curled into the sky, and golden flames danced in the holy fire. Everyone prayed with hopeful hearts for the king to be blessed with sons.</p>
+          <p>The priests chanted, sweet smoke curled up toward the clouds, and the sacred fire blazed with everyone's hopeful prayers. But high above the sky, the gods were watching, and they were deeply worried. They believed this might be the perfect moment to ask for help against a terrible demon-king named Ravana.</p>
         </div>
       </div>
     </div>
@@ -151,7 +189,7 @@
           <img src="images/page-07.webp" alt="Gods pleading before Lord Vishnu on Shesha in the celestial realm">
         </div>
         <div class="page-story-text">
-          <p>High in the heavens, the gods were worried about a cruel ten-headed demon-king named Ravana, who frightened everyone. Together they flew to Lord Vishnu and begged, "Only you can save the world from him!"</p>
+          <p>And who was this Ravana? He was a cruel demon with ten heads and twenty glaring eyes, so strong and so proud that he frightened gods and people alike. Trembling, the gods flew together to Lord Vishnu, folded their hands, and begged him, "Only you can save us. Please help us."</p>
         </div>
       </div>
     </div>
@@ -167,7 +205,7 @@
           <img src="images/page-08.webp" alt="Lord Vishnu sending light toward Earth while gods rejoice">
         </div>
         <div class="page-story-text">
-          <p>Lord Vishnu smiled kindly and made a great promise: "I will be born on Earth as a human prince, and I will set everything right." The gods rejoiced, for they knew goodness would soon walk among people.</p>
+          <p>Lord Vishnu smiled his calm and knowing smile. "Do not be afraid," he said. "I myself will be born on Earth as the sons of King Dasaratha, and I will set the world right again." And at that very moment, far below on Earth, something wondrous began to rise out of the sacrificial flames.</p>
         </div>
       </div>
     </div>
@@ -183,7 +221,7 @@
           <img src="images/page-09.webp" alt="Celestial being rising from flames holding a golden bowl of payasam">
         </div>
         <div class="page-story-text">
-          <p>As the ceremony reached its peak, a glowing divine being rose from the flames, holding a golden bowl of magical sweet pudding. "Share this with your queens," he said. The king's heart leapt with joy, for his wish was about to come true!</p>
+          <p>Out of the fire stepped a tall, glowing being, holding a golden bowl of sweet, magical pudding. "Share this with your queens," he said, and then he vanished. The king's hands trembled with joy as he gave it to them, for very soon the whole palace would have something wonderful to celebrate.</p>
         </div>
       </div>
     </div>
@@ -199,7 +237,7 @@
           <img src="images/page-10.webp" alt="Three queens cradling four glowing newborn princes in the palace nursery">
         </div>
         <div class="page-story-text">
-          <p>Soon the palace rang with happy cries — four baby princes were born! They were named Rama, Bharata, Lakshmana, and Shatrughna. All of Ayodhya celebrated, and the king's quiet sadness turned into the greatest joy.</p>
+          <p>Before long, the palace rang with the happy cries of not one but four baby princes: Rama, Bharata, Lakshmana, and little Shatrughna. And far away in the deep forests, the gods were quietly busy too, creating mighty monkey-warriors, secret friends that Rama would one day need on a very great adventure.</p>
         </div>
       </div>
     </div>
@@ -215,7 +253,7 @@
           <img src="images/page-11.webp" alt="Young princes practicing archery and vanara children playing in forests">
         </div>
         <div class="page-story-text">
-          <p>The four brothers grew up strong, clever, and kind, learning archery, the scriptures, and how to care for others. Rama, the eldest, loved everyone the most. And far away in the forests, mighty monkey-heroes were quietly being born — secret friends Rama would need one day.</p>
+          <p>The four little princes grew up clever, strong, and kind, and best of all, they loved one another dearly. But Rama shone the brightest of them all, with a heart so gentle that everyone adored him. And just as he was nearing sixteen, a powerful visitor came striding into the palace with an urgent plea.</p>
         </div>
       </div>
     </div>
@@ -231,7 +269,7 @@
           <img src="images/page-12.webp" alt="Sage Vishwamitra striding into the throne room to request Rama">
         </div>
         <div class="page-story-text">
-          <p>One day the powerful sage Vishwamitra strode into the palace. "Demons are spoiling our holy prayers in the forest," he said. "Please send young Rama to protect us." Everyone was surprised — Rama was still so young!</p>
+          <p>Into the throne room strode the great sage Vishwamitra, his eyes flashing. "Demons are spoiling our holy prayers in the forest," he declared. "Send young Rama to protect us." The king's heart sank, for he did not wish to send his precious son into such danger. But the wise teacher Vasishtha gently leaned in and said, "You must trust the sage."</p>
         </div>
       </div>
     </div>
@@ -247,7 +285,7 @@
           <img src="images/page-13.webp" alt="King Dasaratha saying farewell to Rama and Lakshmana at the palace gate">
         </div>
         <div class="page-story-text">
-          <p>The king's heart trembled to send his dear son away. But the royal teacher Vasishtha said gently, "Trust the sage. Rama is destined for greatness." So Rama and his loyal brother Lakshmana set out, bows in hand, ready and brave.</p>
+          <p>So, blinking back his tears, the king allowed Rama and his faithful brother Lakshmana to set off into the wild with Vishwamitra. They were two brave boys with bows on their backs, stepping out into the unknown. As they walked along the river Sarayu, the sage thought to himself, "First, I must make these young princes ready."</p>
         </div>
       </div>
     </div>
@@ -263,23 +301,23 @@
           <img src="images/page-14.webp" alt="Vishwamitra teaching sacred chants to the princes by the Sarayu river">
         </div>
         <div class="page-story-text">
-          <p>As they walked beside the shining river Sarayu, Vishwamitra taught the princes two magical chants called Bala and Atibala. These gifts kept them strong, never tired, and never afraid. The boys listened carefully, for learning is its own kind of power.</p>
+          <p>He taught them two secret chants called Bala and Atibala, magical words that kept them strong, never tired, and never afraid. With these chants humming softly in their hearts, the princes pressed on, deeper and deeper, until they came to a forest so dark and silent that not a single bird dared to sing.</p>
         </div>
       </div>
     </div>
 
     <!-- ===== PAGE 15 ===== -->
-    <div class="page story-page" data-title="The Dark Forest of Taraka">
+    <div class="page story-page" data-title="The Dark Forest of Tataka">
       <div class="page-inner">
         <div class="page-header">
           <div class="page-number">Page 15 of 42</div>
-          <h2 class="page-chapter-title">The Dark Forest of Taraka</h2>
+          <h2 class="page-chapter-title">The Dark Forest of Tataka</h2>
         </div>
         <div class="page-illustration">
           <img src="images/page-15.webp" alt="Rama and Lakshmana at the edge of a gloomy tangled forest">
         </div>
         <div class="page-story-text">
-          <p>Soon they reached a gloomy, tangled forest where no birds sang. A fierce demoness named Taraka had frightened everyone away. "Be brave," said the sage. "This forest can be peaceful again."</p>
+          <p>This gloomy wood belonged to a fierce demoness named Tataka, and everyone for miles around was afraid of her. "Be brave, Rama," said the sage softly. Rama lifted his bow, took one steady breath, and stepped forward, for he had made up his mind to bring peace back to this frightened land.</p>
         </div>
       </div>
     </div>
@@ -295,7 +333,7 @@
           <img src="images/page-16.webp" alt="Rama releasing a golden arrow as sunlight bursts through the dark forest">
         </div>
         <div class="page-story-text">
-          <p>Taraka rushed out with a terrible roar, but Rama stood calm and steady. With one swift, brave arrow, he freed the forest from her fear. At once, sunlight poured in, birds returned, and the trees seemed to smile again.</p>
+          <p>Out rushed Tataka with a terrible roar, but Rama stood as calm as a still pond, and with a single swift arrow he set the whole forest free. At once the sunlight came pouring through and the birds returned, singing once more. The delighted sage decided that this brave prince deserved a wondrous reward.</p>
         </div>
       </div>
     </div>
@@ -311,7 +349,7 @@
           <img src="images/page-17.webp" alt="Celestial weapons appearing as shining spirits before a kneeling Rama">
         </div>
         <div class="page-story-text">
-          <p>Pleased with Rama's courage, Vishwamitra gave him wondrous celestial weapons that glowed with divine light. They appeared as friendly shining beings, ready to help only when truly needed. Rama promised to use them wisely, never for showing off.</p>
+          <p>And what a reward it was. Vishwamitra gave Rama glittering celestial weapons that appeared like friendly, shining spirits, all ready to obey him. "Use these only for what is good," the sage said, and Rama promised with all his heart. Then onward they went, to guard the sage's sacred fire-sacrifice.</p>
         </div>
       </div>
     </div>
@@ -327,7 +365,7 @@
           <img src="images/page-18.webp" alt="Rama and Lakshmana guarding sages at the fire altar as demons swoop down">
         </div>
         <div class="page-story-text">
-          <p>At Vishwamitra's hermitage, the gentle sages began their sacred fire-prayer. Rama and Lakshmana stood guard for many days, watchful and brave. Suddenly the sky darkened — the demons Maricha and Subahu came swooping down to spoil everything!</p>
+          <p>For six long days and nights, the brothers kept careful watch over the chanting sages. Then, all at once, the sky turned black, and down swooped two roaring demons, Maricha and Subahu, hurling rocks and ash to spoil the holy prayers. But Rama was ready, with his bow already in his hand.</p>
         </div>
       </div>
     </div>
@@ -343,7 +381,7 @@
           <img src="images/page-19.webp" alt="Rama shooting a brilliant arrow sending the demon Maricha tumbling away">
         </div>
         <div class="page-story-text">
-          <p>Quick as lightning, Rama fitted a special arrow to his bow. With one gentle, powerful shot he flung the demon Maricha far across the ocean, and stopped the others. The sacred fire blazed on, and the grateful sages blessed the brave young prince.</p>
+          <p>Quick as a flash of lightning, Rama loosed a mighty arrow that sent Maricha tumbling head over heels clear across the ocean, and he scattered the other demons too. The sacrifice was saved, and the grateful sages cheered. "Come now," said Vishwamitra warmly, "let us journey on to Mithila." And along the way, he had the most wonderful stories to share.</p>
         </div>
       </div>
     </div>
@@ -359,7 +397,7 @@
           <img src="images/page-20.webp" alt="Vishwamitra telling stories while walking along a scenic path with the princes">
         </div>
         <div class="page-story-text">
-          <p>Next, Vishwamitra led the princes toward the city of Mithila for a great celebration. As they walked, he told them a magical story: "Let me tell you how the holy river Ganga came down to Earth." The boys leaned in, eager to listen.</p>
+          <p>As they walked along, Vishwamitra pointed up at the great snowy mountains and began the tale of the holy river Ganga. "Long ago," he said, "a proud king named Sagara held a grand horse-ceremony, but it ended in the strangest mystery you ever heard." And Rama and Lakshmana leaned in close, eager for every word.</p>
         </div>
       </div>
     </div>
@@ -375,7 +413,7 @@
           <img src="images/page-21.webp" alt="King Sagara watching the sacred white horse vanish in sparkles">
         </div>
         <div class="page-story-text">
-          <p>"Long ago," said the sage, "the mighty King Sagara held a grand ceremony with a beautiful sacred horse. But sneaky trouble was near — the horse suddenly vanished without a trace!" The king's sixty thousand sons set off to search the whole world.</p>
+          <p>"The sacred horse simply vanished into thin air," said the sage. "So King Sagara sent his sixty thousand sons to search for it in every corner of the world. They dug deep, far down into the earth itself, and there they made a terrible mistake."</p>
         </div>
       </div>
     </div>
@@ -391,7 +429,7 @@
           <img src="images/page-22.webp" alt="Sage Kapila meditating underground beside the sacred horse">
         </div>
         <div class="page-story-text">
-          <p>Digging deep into the earth, the sons finally found the horse beside the silent, glowing sage Kapila. Without asking, they shouted at him angrily — and in a flash of heat, they were turned to ashes. It was a sad lesson: never be rude to the wise and the kind.</p>
+          <p>"They found the horse beside a wise sage named Kapila, who was deep in quiet meditation. But instead of bowing politely, they shouted at him so rudely that in a single flash they were burned to ashes," said Vishwamitra, shaking his head. "And many years passed before a noble prince called Bhagiratha set out to free their lost souls."</p>
         </div>
       </div>
     </div>
@@ -407,7 +445,7 @@
           <img src="images/page-23.webp" alt="Prince Bhagiratha standing in penance atop a snowy Himalayan peak">
         </div>
         <div class="page-story-text">
-          <p>Years later, the noble prince Bhagiratha wished to free his ancestors' souls. He prayed with all his heart for the holy river Ganga to flow down from the heavens. He stood still for a very long time, showing that patience and devotion can move even the gods.</p>
+          <p>"Now Bhagiratha prayed and prayed with all his heart," Vishwamitra went on, "until at last the gods agreed to send the holy river Ganga rushing down from heaven to earth. But she came down so wild and so mighty that she might have shattered the whole world, and only Lord Shiva was strong enough to catch her."</p>
         </div>
       </div>
     </div>
@@ -423,7 +461,7 @@
           <img src="images/page-24.webp" alt="River Ganga cascading from heaven, caught in Lord Shiva's hair">
         </div>
         <div class="page-story-text">
-          <p>At last the mighty Ganga came rushing down from the sky! But she was so powerful she might have flooded the whole Earth — so kind Lord Shiva caught her gently in his tangled hair and let her flow softly. Following Bhagiratha, the holy river freed his ancestors and blessed the land.</p>
+          <p>"So Shiva caught the roaring Ganga in his tangled hair and let her flow out soft and gentle, to bless the earth and free those ancestors at last," said the sage. "When we work together in this way, even the impossible becomes possible. Once, the gods and demons even churned the whole great ocean side by side."</p>
         </div>
       </div>
     </div>
@@ -439,23 +477,23 @@
           <img src="images/page-25.webp" alt="Gods and demons churning the milky ocean with Mount Mandara">
         </div>
         <div class="page-story-text">
-          <p>Vishwamitra shared another wonder: long ago, the gods and demons churned the great milky ocean together, using a mountain as a stick and a giant serpent as a rope. Out came amazing treasures and the precious nectar of life. It showed that even rivals can create something good by working together.</p>
+          <p>"And by churning that ocean together, they drew out the very nectar of life. That is what working together can do," Vishwamitra finished with a smile. Just then, as they neared Mithila, they came upon a hermitage that stood silent and overgrown, as though no one had lived there for years and years. Rama could not help wondering what its story might be.</p>
         </div>
       </div>
     </div>
 
     <!-- ===== PAGE 26 ===== -->
-    <div class="page story-page" data-title="The Hermitage and the Quiet Stone">
+    <div class="page story-page" data-title="Ahalya's Long Wait">
       <div class="page-inner">
         <div class="page-header">
           <div class="page-number">Page 26 of 42</div>
-          <h2 class="page-chapter-title">The Hermitage and the Quiet Stone</h2>
+          <h2 class="page-chapter-title">Ahalya's Long Wait</h2>
         </div>
         <div class="page-illustration">
-          <img src="images/page-26.webp" alt="A stone shaped like a woman resting among flowers in a quiet hermitage">
+          <img src="images/page-26.webp" alt="Ahalya doing penance, faint and unseen, in an overgrown forest hermitage as Rama, Lakshmana and Vishwamitra approach">
         </div>
         <div class="page-story-text">
-          <p>Their path led to a peaceful, empty hermitage where a strange grey stone lay among the flowers. "This was once a noble lady named Ahalya," said the sage softly. "Long ago she was turned to stone, waiting for the touch of someone truly good."</p>
+          <p>"Long ago," said Vishwamitra gently, "this was the home of the great sage Gautama and his wife, Ahalya. But Ahalya was once led into a grave mistake, and in his anger Gautama declared that she must live here all alone, unseen by every passing eye, fasting and praying, until one pure and noble soul should come to set her free." He turned to Rama with knowing eyes. "That soul, my boy, is you. Step inside, and let her welcome you."</p>
         </div>
       </div>
     </div>
@@ -468,10 +506,10 @@
           <h2 class="page-chapter-title">Ahalya Is Freed</h2>
         </div>
         <div class="page-illustration">
-          <img src="images/page-27.webp" alt="Ahalya rising from the stone in golden light as Rama watches">
+          <img src="images/page-27.webp" alt="Ahalya restored and radiant, welcoming Rama and Lakshmana as flowers rain from the sky and sage Gautama returns">
         </div>
         <div class="page-story-text">
-          <p>As Rama's gentle foot touched the stone, a warm light spread through it. The stone softened, and kind Ahalya stood up alive once more, smiling with happy tears! Rama's goodness and forgiveness had set her free.</p>
+          <p>As Rama and Lakshmana stepped softly into the quiet hermitage, there stood Ahalya, glowing after her long years of prayer. The two princes bowed low and touched her feet with deep respect, and at that very moment her long penance came to an end. She welcomed them with loving care, the heavens rained down flowers, and the sage Gautama returned at last to her side. Then the travelers marched onward, until the festive gates of Mithila came into view.</p>
         </div>
       </div>
     </div>
@@ -487,7 +525,7 @@
           <img src="images/page-28.webp" alt="King Janaka welcoming the travellers at the festive gates of Mithila">
         </div>
         <div class="page-story-text">
-          <p>At last they reached the festive city of Mithila, ruled by the wise and gentle King Janaka. He welcomed Vishwamitra and the two princes with great warmth and curiosity. "Who are these shining young heroes?" he wondered with a smile.</p>
+          <p>The wise King Janaka welcomed them warmly, though he could not help wondering who these two shining young princes might be. When Vishwamitra told him their names, Janaka's whole face lit up, and he began to tell them about his beloved daughter, Sita, and a mighty test of strength.</p>
         </div>
       </div>
     </div>
@@ -503,7 +541,7 @@
           <img src="images/page-29.webp" alt="King Janaka showing the great bow of Shiva in a grand hall with Sita nearby">
         </div>
         <div class="page-story-text">
-          <p>King Janaka told a wonderful story: "My daughter Sita was found in a furrow of the earth, a gift from the land itself." Then he showed them a giant, ancient bow of Lord Shiva, so heavy that no king alive could even lift it. "Whoever bends this bow," he said, "shall marry my brave Sita."</p>
+          <p>"My Sita was no ordinary child, for she rose up out of the earth itself as I plowed my field," said Janaka. "And she will marry only the one who is strong enough to lift and bend the giant bow of Lord Shiva." Rama looked up at the colossal bow, smiled softly to himself, and stepped forward to try.</p>
         </div>
       </div>
     </div>
@@ -519,23 +557,23 @@
           <img src="images/page-30.webp" alt="Rama bending the great bow of Shiva as it cracks with brilliant light">
         </div>
         <div class="page-story-text">
-          <p>Calmly, Rama walked up to the enormous bow. To everyone's amazement, he lifted it as easily as a flower — and as he bent it to string it, the great bow snapped with a sound like thunder! The whole hall gasped, then burst into cheers.</p>
+          <p>As calm as could be, Rama lifted that enormous bow as easily as if it were a single flower. And as he bent it to string it, the bow snapped with a boom like thunder that shook the whole hall. The crowd leapt up cheering, and Sita stepped forward, her heart singing with joy.</p>
         </div>
       </div>
     </div>
 
     <!-- ===== PAGE 31 ===== -->
-    <div class="page story-page" data-title="Sita Chooses Rama">
+    <div class="page story-page" data-title="Sita Is Won">
       <div class="page-inner">
         <div class="page-header">
           <div class="page-number">Page 31 of 42</div>
-          <h2 class="page-chapter-title">Sita Chooses Rama</h2>
+          <h2 class="page-chapter-title">Sita Is Won</h2>
         </div>
         <div class="page-illustration">
-          <img src="images/page-31.webp" alt="Sita placing a flower garland around Rama's neck">
+          <img src="images/page-31.webp" alt="King Janaka joyfully granting Sita to Rama as swift messengers ride off toward Ayodhya">
         </div>
         <div class="page-story-text">
-          <p>Gentle Sita stepped forward and placed a beautiful flower garland around Rama's neck, choosing him as her husband. The people of Mithila cheered with delight, and swift messengers raced to Ayodhya to share the wonderful news. Love and goodness had found each other.</p>
+          <p>When the great bow lay broken, King Janaka's heart overflowed with joy. "By his strength and his valour," he declared, "the noble Rama has won my daughter Sita as his bride!" All of Mithila erupted in cheers, and Janaka sent his swiftest messengers galloping off to Ayodhya, to carry the happy news to King Dasaratha.</p>
         </div>
       </div>
     </div>
@@ -551,7 +589,7 @@
           <img src="images/page-32.webp" alt="A magnificent royal procession with elephants heading toward Mithila">
         </div>
         <div class="page-story-text">
-          <p>When the happy news reached Ayodhya, King Dasaratha was overjoyed! He set out for Mithila with his other sons, his ministers, and a grand royal parade. The roads filled with elephants, music, and the sound of celebration.</p>
+          <p>Overjoyed, King Dasaratha set out for Mithila with a grand royal parade of elephants, drums, and fluttering banners. And when the two kind kings finally met, they clasped hands like old friends and decided to make this happy day grander still.</p>
         </div>
       </div>
     </div>
@@ -567,7 +605,7 @@
           <img src="images/page-33.webp" alt="The two kings clasping hands with four princes and four princesses">
         </div>
         <div class="page-story-text">
-          <p>King Janaka happily shared that his family had four wonderful princesses. So it was joyfully arranged: all four brothers would be married together! Rama would wed Sita, and his three brothers would wed three lovely princesses too.</p>
+          <p>"Why stop at just one wedding?" said King Janaka with a twinkle in his eye. "Let all four of your sons marry the four young princesses of my family." Everyone agreed with delight, and at once the palace was decorated for the grandest wedding the world had ever seen.</p>
         </div>
       </div>
     </div>
@@ -583,7 +621,7 @@
           <img src="images/page-34.webp" alt="Dazzling wedding hall at night with four couples in bridal attire">
         </div>
         <div class="page-story-text">
-          <p>Mithila sparkled like a dream for the grandest wedding ever seen! Lamps glowed, drums played, and flower petals floated in the air. Four happy couples gathered, and everyone's heart was full of love and blessings.</p>
+          <p>Mithila glittered like a dream, with a thousand tiny lamps and flower garlands everywhere one looked. The four happy couples gathered together as music swirled all around them. And smiling shyly, the brides and grooms made ready to take their sacred vows around the holy fire.</p>
         </div>
       </div>
     </div>
@@ -599,7 +637,7 @@
           <img src="images/page-35.webp" alt="Rama and Sita walking around the sacred fire taking wedding vows">
         </div>
         <div class="page-story-text">
-          <p>Holding hands, each couple walked around the sacred fire and made gentle promises to love and care for one another always. Sages chanted blessings, and the gods showered flowers from above. It was a moment of pure happiness and trust.</p>
+          <p>Hand in hand, they walked slowly around the fire, promising to love and care for one another always. When the ceremonies were done, the joyful families bade Mithila goodbye and set off for home. But they had barely begun their journey when the sky turned dark and a sudden storm blocked their path.</p>
         </div>
       </div>
     </div>
@@ -615,7 +653,7 @@
           <img src="images/page-36.webp" alt="Parasurama blocking the road under a storm-darkened sky">
         </div>
         <div class="page-story-text">
-          <p>As the joyful families travelled back to Ayodhya, the sky suddenly grew dark and the wind howled. Out stepped Parasurama, a fierce warrior-sage with a great axe, his eyes blazing. Everyone froze — but Rama stayed perfectly calm.</p>
+          <p>Out of the gloom strode a fierce warrior-sage named Parasurama, his great axe gleaming on his shoulder, furious that Shiva's mighty bow had been broken. The whole royal family froze, their hearts pounding. But Rama simply stepped forward, calm and respectful, and bowed.</p>
         </div>
       </div>
     </div>
@@ -631,7 +669,7 @@
           <img src="images/page-37.webp" alt="Parasurama offering his divine bow to Rama in a tense standoff">
         </div>
         <div class="page-story-text">
-          <p>"So you broke Lord Shiva's bow?" thundered Parasurama. "Let us see if you can string this mighty bow of mine!" He believed no one could match his strength. But Rama only smiled gently and accepted the challenge.</p>
+          <p>"If you are truly as strong as they say," thundered Parasurama, "then string this mighty bow of Lord Vishnu." Rama only smiled his gentle smile, accepted the challenge without a single boastful word, and lifted the heavy bow into his hands.</p>
         </div>
       </div>
     </div>
@@ -647,7 +685,7 @@
           <img src="images/page-38.webp" alt="Rama bending Parasurama's bow with a golden halo revealing his divinity">
         </div>
         <div class="page-story-text">
-          <p>With astonishing ease, Rama lifted the great bow and bent it, ready in a heartbeat. In that moment, Parasurama understood that Rama was truly divine, and all his pride melted away. True strength, he learned, is calm and humble — never boastful.</p>
+          <p>With the greatest ease, Rama strung the giant bow, and all at once a warm golden light shone around him, showing that he was no ordinary prince, but the Lord himself. At that wondrous sight, all of Parasurama's anger and pride melted away into deep and humble awe.</p>
         </div>
       </div>
     </div>
@@ -663,7 +701,7 @@
           <img src="images/page-39.webp" alt="Parasurama bowing to Rama before walking toward distant mountains">
         </div>
         <div class="page-story-text">
-          <p>Parasurama bowed respectfully to Rama and, with a peaceful heart, walked away to the quiet mountains to pray. The storm vanished and the sky turned bright and blue again. Goodness had won, gently and kindly, without any harm.</p>
+          <p>Parasurama bowed low to Rama and quietly walked away toward the faraway mountains, to pray there in peace. The storm clouds scattered, the blue sky shone down once more, and the happy travelers continued on their way home.</p>
         </div>
       </div>
     </div>
@@ -679,7 +717,7 @@
           <img src="images/page-40.webp" alt="Grand jubilant homecoming to Ayodhya at sunset with flower-strewn streets">
         </div>
         <div class="page-story-text">
-          <p>At last the family reached Ayodhya, and the whole city burst into celebration! Streets were sprinkled with water and scattered with flowers, lamps glowed in every window, and people cheered with all their might. Their beloved princes had come home with their brides.</p>
+          <p>And what a homecoming it was! Ayodhya greeted them with cheering crowds, flower-strewn streets, and a glowing lamp in every window. The princes and their lovely brides entered the palace, where their mothers stood waiting with open arms and happy tears.</p>
         </div>
       </div>
     </div>
@@ -695,7 +733,7 @@
           <img src="images/page-41.webp" alt="Queen mothers welcoming Sita and the princesses with aarti lamps">
         </div>
         <div class="page-story-text">
-          <p>The three loving queen-mothers welcomed Sita and the other princesses into the palace with open arms and happy tears. They performed gentle ceremonies, offered sweets, and blessed each new daughter. The royal family was now bigger, warmer, and more joyful than ever.</p>
+          <p>The three queen-mothers welcomed the new brides with sweet treats, glowing lamps, and loving blessings upon their foreheads. At long last the family was whole and happy. And so Rama and Sita began a beautiful new life together, side by side.</p>
         </div>
       </div>
     </div>
@@ -711,7 +749,7 @@
           <img src="images/page-42.webp" alt="Rama and Sita on a palace balcony gazing at a golden sunset horizon">
         </div>
         <div class="page-story-text">
-          <p>And so Rama and Sita began their happy life together, loved by everyone for their kindness, courage, and truth. This was only the very beginning of their great adventure. For wherever there is bravery, devotion, and a good heart, a wonderful story is always waiting to unfold.</p>
+          <p>And so Rama and Sita lived joyfully together, loved by everyone for their kindness and their truth. Here our first book gently comes to a close. But all of this was only the very beginning of their great and timeless adventure.</p>
         </div>
       </div>
     </div>

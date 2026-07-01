@@ -811,3 +811,93 @@ body::before {
   .nav-controls, .toolbar, .progress-bar, .toc-overlay, .toc-panel { display: none; }
   .page { border: 1px solid #ccc; box-shadow: none; page-break-after: always; }
 }
+
+/* ---------- Audio Settings Panel ---------- */
+.audio-settings-panel {
+  position: fixed;
+  top: 60px;
+  right: 16px;
+  width: 320px;
+  background: rgba(255, 248, 236, 0.95);
+  backdrop-filter: blur(10px);
+  border: 2px solid var(--gold);
+  border-radius: var(--border-radius);
+  box-shadow: 0 12px 32px var(--shadow-strong);
+  padding: 20px;
+  z-index: 1000;
+  font-family: var(--font-ui);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transform: translateY(-20px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--transition);
+}
+
+.audio-settings-panel.open {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.audio-settings-panel h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  color: var(--indigo-deep);
+  border-bottom: 1px solid var(--parchment-dark);
+  padding-bottom: 8px;
+}
+
+.setting-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.setting-row label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-medium);
+}
+
+.setting-row select,
+.setting-row input[type="password"] {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--parchment-dark);
+  border-radius: 8px;
+  background: var(--warm-white);
+  color: var(--text-dark);
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.setting-row select:focus,
+.setting-row input[type="password"]:focus {
+  border-color: var(--saffron);
+}
+
+.setting-row input[type="range"] {
+  width: 100%;
+  accent-color: var(--saffron);
+}
+
+.apply-settings-btn {
+  margin-top: 6px;
+  background: linear-gradient(135deg, var(--saffron), var(--saffron-dark));
+  color: var(--cream);
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.apply-settings-btn:hover {
+  background: linear-gradient(135deg, var(--marigold), var(--saffron));
+}
+

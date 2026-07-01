@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="తెలుగు రామాయణం — బాలకాండ | పిల్లల కథల పుస్తకం — 42 అందమైన పేజీలతో, చదవడం వినిపించే సౌకర్యంతో, అద్భుతమైన బొమ్మలతో సంపూర్ణ ఇంటరాక్టివ్ కథా పుస్తకం.">
+  <meta name="description" content="తెలుగు రామాయణం — బాలకాండ | పిల్లల కథల పుస్తకం — 43 అందమైన పేజీలతో, చదవడం వినిపించే సౌకర్యంతో, అద్భుతమైన బొమ్మలతో సంపూర్ణ ఇంటరాక్టివ్ కథా పుస్తకం.">
   <title>రామాయణం — బాలకాండ | పిల్లల కథల పుస్తకం</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
@@ -24,7 +24,7 @@
         <div class="wave"><span></span><span></span><span></span><span></span></div>
         చదువుతోంది…
       </div>
-      <span id="page-counter">1 / 42</span>
+      <span id="page-counter">1 / 43</span>
       <button class="ctrl-btn" id="toc-toggle-btn" title="విషయ సూచిక">
         <span class="icon">☰</span> విషయాలు
       </button>
@@ -34,8 +34,48 @@
       <button class="ctrl-btn" id="autoplay-btn" title="ఆటో-ప్లే">
         <span class="icon">▶</span> ఆటో
       </button>
+      <button class="ctrl-btn" id="settings-toggle-btn" title="ఆడియో సెట్టింగులు">
+        <span class="icon">⚙</span> సెట్టింగ్స్
+      </button>
     </div>
   </header>
+
+  <!-- Audio Settings Panel -->
+  <div class="audio-settings-panel" id="audio-settings-panel">
+    <h3>🔊 ఆడియో సెట్టింగులు</h3>
+    <div class="setting-row">
+      <label for="tts-provider">వాయిస్ ప్రొవైడర్:</label>
+      <select id="tts-provider">
+        <option value="browser">బ్రౌజర్ డిఫాల్ట్</option>
+        <option value="sarvam">సర్వమ్ AI (తెలుగు)</option>
+      </select>
+    </div>
+    <div id="sarvam-settings-group" style="display: none;">
+      <div class="setting-row">
+        <label for="sarvam-api-key">API కీ:</label>
+        <input type="password" id="sarvam-api-key" placeholder="ఇక్కడ API Key పేస్ట్ చేయండి">
+      </div>
+      <div class="setting-row">
+        <label for="sarvam-speaker">మాట్లాడే వాయిస్:</label>
+        <select id="sarvam-speaker">
+          <option value="neha" selected>నేహా (స్త్రీ వాయిస్)</option>
+          <option value="anushka">అనుష్క (స్త్రీ వాయిస్)</option>
+          <option value="aditya">ఆదిత్య (పురుష వాయిస్)</option>
+          <option value="amit">అమిత్ (పురుష వాయిస్)</option>
+          <option value="meera">మీరా (స్త్రీ వాయిస్ - కథకుడు)</option>
+          <option value="shubh">శుభ్ (పురుష వాయిస్)</option>
+        </select>
+      </div>
+    </div>
+    <div class="setting-row">
+      <label for="tts-rate">వేగం:</label>
+      <input type="range" id="tts-rate" min="0.5" max="1.5" step="0.1" value="0.9">
+    </div>
+    <button class="apply-settings-btn" id="apply-settings-btn">వర్తించు</button>
+    <div id="active-voice-status" style="margin-top: 12px; font-size: 0.8rem; color: var(--text-light); text-align: center; font-style: italic;">
+      యాక్టివ్ వాయిస్: బ్రౌజర్ డిఫాల్ట్
+    </div>
+  </div>
 
   <!-- Main App -->
   <div id="app">
